@@ -1,0 +1,2632 @@
+07.12.2023 | 15:27:16 [INFO]: Starting flask_restful app...
+07.12.2023 | 15:27:16 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+07.12.2023 | 15:27:16 [INFO]: [33mPress CTRL+C to quit[0m
+07.12.2023 | 15:27:16 [INFO]:  * Restarting with stat
+07.12.2023 | 15:27:16 [INFO]: Starting flask_restful app...
+07.12.2023 | 15:27:16 [WARNING]:  * Debugger is active!
+07.12.2023 | 15:27:16 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 15:28:39 [INFO]: Ending flask_restful app
+07.12.2023 | 15:28:39 [INFO]: Ending flask_restful app
+07.12.2023 | 15:28:40 [INFO]: Starting flask_restful app...
+07.12.2023 | 15:28:40 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+07.12.2023 | 15:28:40 [INFO]: [33mPress CTRL+C to quit[0m
+07.12.2023 | 15:28:40 [INFO]:  * Restarting with stat
+07.12.2023 | 15:28:40 [INFO]: Starting flask_restful app...
+07.12.2023 | 15:28:40 [WARNING]:  * Debugger is active!
+07.12.2023 | 15:28:40 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 15:31:27 [INFO]: Ending flask_restful app
+07.12.2023 | 15:31:27 [INFO]: Ending flask_restful app
+07.12.2023 | 15:31:28 [INFO]: Starting flask_restful app...
+07.12.2023 | 15:31:28 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+07.12.2023 | 15:31:28 [INFO]: [33mPress CTRL+C to quit[0m
+07.12.2023 | 15:31:28 [INFO]:  * Restarting with stat
+07.12.2023 | 15:31:28 [INFO]: Starting flask_restful app...
+07.12.2023 | 15:31:28 [WARNING]:  * Debugger is active!
+07.12.2023 | 15:31:28 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 15:34:22 [ERROR]: Error processing request: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+07.12.2023 | 15:34:22 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:34:22] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:34:39 [ERROR]: Error processing request: 400 Bad Request: Failed to decode JSON object: Expecting ',' delimiter: line 4 column 22 (char 72)
+07.12.2023 | 15:34:39 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:34:39] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:34:40 [ERROR]: Error processing request: 400 Bad Request: Failed to decode JSON object: Expecting ',' delimiter: line 4 column 22 (char 72)
+07.12.2023 | 15:34:40 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:34:40] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:35:56 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/API.py', reloading
+07.12.2023 | 15:35:56 [INFO]:  * Restarting with stat
+07.12.2023 | 15:35:56 [INFO]: Starting flask_restful app...
+07.12.2023 | 15:35:56 [WARNING]:  * Debugger is active!
+07.12.2023 | 15:35:56 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 15:36:26 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/API.py', reloading
+07.12.2023 | 15:36:26 [INFO]:  * Restarting with stat
+07.12.2023 | 15:36:26 [INFO]: Starting flask_restful app...
+07.12.2023 | 15:36:26 [WARNING]:  * Debugger is active!
+07.12.2023 | 15:36:26 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 15:37:14 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 15:37:14 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 47, in post
+    filtered_df = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 40, in usagegraph
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 15:37:14 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:37:14] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:37:43 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 15:37:43 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 47, in post
+    filtered_df = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 40, in usagegraph
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 15:37:43 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:37:43] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:39:41 [INFO]: Ending flask_restful app
+07.12.2023 | 15:39:41 [INFO]: Ending flask_restful app
+07.12.2023 | 15:39:43 [INFO]: Starting flask_restful app...
+07.12.2023 | 15:39:43 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+07.12.2023 | 15:39:43 [INFO]: [33mPress CTRL+C to quit[0m
+07.12.2023 | 15:39:43 [INFO]:  * Restarting with stat
+07.12.2023 | 15:39:44 [INFO]: Starting flask_restful app...
+07.12.2023 | 15:39:44 [WARNING]:  * Debugger is active!
+07.12.2023 | 15:39:44 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 15:39:46 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': ['828', '830']}
+07.12.2023 | 15:39:46 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 15:39:46 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 15:39:46 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:39:46] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:39:48 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': ['828', '830']}
+07.12.2023 | 15:39:48 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 15:39:48 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 15:39:48 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:39:48] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:40:02 [INFO]: Ending flask_restful app
+07.12.2023 | 15:40:02 [INFO]: Ending flask_restful app
+07.12.2023 | 15:40:04 [INFO]: Starting flask_restful app...
+07.12.2023 | 15:40:04 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+07.12.2023 | 15:40:04 [INFO]: [33mPress CTRL+C to quit[0m
+07.12.2023 | 15:40:04 [INFO]:  * Restarting with stat
+07.12.2023 | 15:40:04 [INFO]: Starting flask_restful app...
+07.12.2023 | 15:40:04 [WARNING]:  * Debugger is active!
+07.12.2023 | 15:40:04 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 15:40:14 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': ['828', '830']}
+07.12.2023 | 15:40:14 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 15:40:14 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 15:40:14 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:40:14] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:40:15 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': ['828', '830']}
+07.12.2023 | 15:40:15 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 15:40:15 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 15:40:15 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:40:15] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:41:25 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/API.py', reloading
+07.12.2023 | 15:41:25 [INFO]:  * Restarting with stat
+07.12.2023 | 15:41:26 [INFO]: Starting flask_restful app...
+07.12.2023 | 15:41:26 [WARNING]:  * Debugger is active!
+07.12.2023 | 15:41:26 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 15:41:26 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': [828, 830]}
+07.12.2023 | 15:41:27 [ERROR]: Error processing request: 'str' object has no attribute 'to_json'
+07.12.2023 | 15:41:27 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 61, in post
+    json_result = filtered_df.to_json(orient='records', date_format='iso')
+AttributeError: 'str' object has no attribute 'to_json'
+
+07.12.2023 | 15:41:27 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:41:27] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:41:28 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': [828, 830]}
+07.12.2023 | 15:41:28 [ERROR]: Error processing request: 'str' object has no attribute 'to_json'
+07.12.2023 | 15:41:28 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 61, in post
+    json_result = filtered_df.to_json(orient='records', date_format='iso')
+AttributeError: 'str' object has no attribute 'to_json'
+
+07.12.2023 | 15:41:28 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:41:28] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:42:35 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/API.py', reloading
+07.12.2023 | 15:42:36 [INFO]:  * Restarting with stat
+07.12.2023 | 15:42:36 [INFO]: Starting flask_restful app...
+07.12.2023 | 15:42:36 [WARNING]:  * Debugger is active!
+07.12.2023 | 15:42:36 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 15:42:36 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': [828, 830]}
+07.12.2023 | 15:42:36 [INFO]: Received LN parameter: [828, 830]
+07.12.2023 | 15:42:36 [ERROR]: Error processing request: 'str' object has no attribute 'to_json'
+07.12.2023 | 15:42:36 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 64, in post
+    json_result = filtered_df.to_json(orient='records', date_format='iso')
+AttributeError: 'str' object has no attribute 'to_json'
+
+07.12.2023 | 15:42:36 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:42:36] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:42:38 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': [828, 830]}
+07.12.2023 | 15:42:38 [INFO]: Received LN parameter: [828, 830]
+07.12.2023 | 15:42:38 [ERROR]: Error processing request: 'str' object has no attribute 'to_json'
+07.12.2023 | 15:42:38 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 64, in post
+    json_result = filtered_df.to_json(orient='records', date_format='iso')
+AttributeError: 'str' object has no attribute 'to_json'
+
+07.12.2023 | 15:42:38 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:42:38] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:44:15 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+07.12.2023 | 15:44:15 [INFO]:  * Restarting with stat
+07.12.2023 | 15:44:15 [INFO]: Starting flask_restful app...
+07.12.2023 | 15:44:15 [WARNING]:  * Debugger is active!
+07.12.2023 | 15:44:15 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 15:44:30 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+07.12.2023 | 15:44:30 [INFO]:  * Restarting with stat
+07.12.2023 | 15:44:31 [INFO]: Starting flask_restful app...
+07.12.2023 | 15:44:31 [WARNING]:  * Debugger is active!
+07.12.2023 | 15:44:31 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 15:44:40 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': [828, 830]}
+07.12.2023 | 15:44:40 [INFO]: Received LN parameter: [828, 830]
+07.12.2023 | 15:44:40 [ERROR]: Error processing request: 'str' object has no attribute 'to_json'
+07.12.2023 | 15:44:40 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 64, in post
+    json_result = filtered_df.to_json(orient='records', date_format='iso')
+AttributeError: 'str' object has no attribute 'to_json'
+
+07.12.2023 | 15:44:40 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:44:40] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:48:50 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': [828, 830]}
+07.12.2023 | 15:48:50 [INFO]: Received LN parameter: [828, 830]
+07.12.2023 | 15:48:50 [ERROR]: Error processing request: 'str' object has no attribute 'to_json'
+07.12.2023 | 15:48:50 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 64, in post
+    json_result = filtered_df.to_json(orient='records', date_format='iso')
+AttributeError: 'str' object has no attribute 'to_json'
+
+07.12.2023 | 15:48:50 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:48:50] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:54:24 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+07.12.2023 | 15:54:25 [INFO]:  * Restarting with stat
+07.12.2023 | 15:54:25 [INFO]: Starting flask_restful app...
+07.12.2023 | 15:54:25 [WARNING]:  * Debugger is active!
+07.12.2023 | 15:54:25 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 15:54:25 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': [828, 830]}
+07.12.2023 | 15:54:25 [INFO]: Received LN parameter: [828, 830]
+07.12.2023 | 15:54:26 [ERROR]: Error processing request: 'str' object has no attribute 'to_json'
+07.12.2023 | 15:54:26 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 64, in post
+    json_result = filtered_df.to_json(orient='records', date_format='iso')
+AttributeError: 'str' object has no attribute 'to_json'
+
+07.12.2023 | 15:54:26 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:54:26] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:54:26 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': [828, 830]}
+07.12.2023 | 15:54:26 [INFO]: Received LN parameter: [828, 830]
+07.12.2023 | 15:54:27 [ERROR]: Error processing request: 'str' object has no attribute 'to_json'
+07.12.2023 | 15:54:27 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 64, in post
+    json_result = filtered_df.to_json(orient='records', date_format='iso')
+AttributeError: 'str' object has no attribute 'to_json'
+
+07.12.2023 | 15:54:27 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:54:27] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:54:36 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': None}
+07.12.2023 | 15:54:36 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 15:54:36 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 15:54:36 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:54:36] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:54:37 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': None}
+07.12.2023 | 15:54:37 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 15:54:37 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 15:54:37 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:54:37] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:54:38 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': None}
+07.12.2023 | 15:54:38 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 15:54:38 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 15:54:38 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:54:38] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:56:09 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+07.12.2023 | 15:56:09 [INFO]:  * Restarting with stat
+07.12.2023 | 15:56:09 [INFO]: Starting flask_restful app...
+07.12.2023 | 15:56:09 [WARNING]:  * Debugger is active!
+07.12.2023 | 15:56:09 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 15:56:10 [ERROR]: Error processing request: 400 Bad Request: Failed to decode JSON object: Expecting ',' delimiter: line 4 column 3 (char 67)
+07.12.2023 | 15:56:10 [ERROR]: Traceback (most recent call last):
+  File "/Library/Python/3.9/site-packages/werkzeug/wrappers/request.py", line 611, in get_json
+    rv = self.json_module.loads(data)
+  File "/Library/Python/3.9/site-packages/flask/json/provider.py", line 188, in loads
+    return json.loads(s, **kwargs)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 4 column 3 (char 67)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 44, in post
+    params = parser.parse_args()
+  File "/Library/Python/3.9/site-packages/flask_restful/reqparse.py", line 328, in parse_args
+    value, found = arg.parse(req, self.bundle_errors)
+  File "/Library/Python/3.9/site-packages/flask_restful/reqparse.py", line 184, in parse
+    source = self.source(request)
+  File "/Library/Python/3.9/site-packages/flask_restful/reqparse.py", line 117, in source
+    value = getattr(request, self.location, MultiDict())
+  File "/Library/Python/3.9/site-packages/werkzeug/wrappers/request.py", line 558, in json
+    return self.get_json()
+  File "/Library/Python/3.9/site-packages/werkzeug/wrappers/request.py", line 620, in get_json
+    rv = self.on_json_loading_failed(e)
+  File "/Library/Python/3.9/site-packages/flask/wrappers.py", line 130, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+  File "/Library/Python/3.9/site-packages/werkzeug/wrappers/request.py", line 645, in on_json_loading_failed
+    raise BadRequest(f"Failed to decode JSON object: {e}")
+werkzeug.exceptions.BadRequest: 400 Bad Request: Failed to decode JSON object: Expecting ',' delimiter: line 4 column 3 (char 67)
+
+07.12.2023 | 15:56:10 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:56:10] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:56:11 [ERROR]: Error processing request: 400 Bad Request: Failed to decode JSON object: Expecting ',' delimiter: line 4 column 3 (char 67)
+07.12.2023 | 15:56:11 [ERROR]: Traceback (most recent call last):
+  File "/Library/Python/3.9/site-packages/werkzeug/wrappers/request.py", line 611, in get_json
+    rv = self.json_module.loads(data)
+  File "/Library/Python/3.9/site-packages/flask/json/provider.py", line 188, in loads
+    return json.loads(s, **kwargs)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 4 column 3 (char 67)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 44, in post
+    params = parser.parse_args()
+  File "/Library/Python/3.9/site-packages/flask_restful/reqparse.py", line 328, in parse_args
+    value, found = arg.parse(req, self.bundle_errors)
+  File "/Library/Python/3.9/site-packages/flask_restful/reqparse.py", line 184, in parse
+    source = self.source(request)
+  File "/Library/Python/3.9/site-packages/flask_restful/reqparse.py", line 117, in source
+    value = getattr(request, self.location, MultiDict())
+  File "/Library/Python/3.9/site-packages/werkzeug/wrappers/request.py", line 558, in json
+    return self.get_json()
+  File "/Library/Python/3.9/site-packages/werkzeug/wrappers/request.py", line 620, in get_json
+    rv = self.on_json_loading_failed(e)
+  File "/Library/Python/3.9/site-packages/flask/wrappers.py", line 130, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+  File "/Library/Python/3.9/site-packages/werkzeug/wrappers/request.py", line 645, in on_json_loading_failed
+    raise BadRequest(f"Failed to decode JSON object: {e}")
+werkzeug.exceptions.BadRequest: 400 Bad Request: Failed to decode JSON object: Expecting ',' delimiter: line 4 column 3 (char 67)
+
+07.12.2023 | 15:56:11 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:56:11] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:56:29 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+07.12.2023 | 15:56:29 [INFO]:  * Restarting with stat
+07.12.2023 | 15:56:29 [INFO]: Starting flask_restful app...
+07.12.2023 | 15:56:29 [WARNING]:  * Debugger is active!
+07.12.2023 | 15:56:29 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 15:56:29 [ERROR]: Error processing request: 400 Bad Request: Failed to decode JSON object: Expecting ',' delimiter: line 4 column 3 (char 67)
+07.12.2023 | 15:56:29 [ERROR]: Traceback (most recent call last):
+  File "/Library/Python/3.9/site-packages/werkzeug/wrappers/request.py", line 611, in get_json
+    rv = self.json_module.loads(data)
+  File "/Library/Python/3.9/site-packages/flask/json/provider.py", line 188, in loads
+    return json.loads(s, **kwargs)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 4 column 3 (char 67)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 44, in post
+    params = parser.parse_args()
+  File "/Library/Python/3.9/site-packages/flask_restful/reqparse.py", line 328, in parse_args
+    value, found = arg.parse(req, self.bundle_errors)
+  File "/Library/Python/3.9/site-packages/flask_restful/reqparse.py", line 184, in parse
+    source = self.source(request)
+  File "/Library/Python/3.9/site-packages/flask_restful/reqparse.py", line 117, in source
+    value = getattr(request, self.location, MultiDict())
+  File "/Library/Python/3.9/site-packages/werkzeug/wrappers/request.py", line 558, in json
+    return self.get_json()
+  File "/Library/Python/3.9/site-packages/werkzeug/wrappers/request.py", line 620, in get_json
+    rv = self.on_json_loading_failed(e)
+  File "/Library/Python/3.9/site-packages/flask/wrappers.py", line 130, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+  File "/Library/Python/3.9/site-packages/werkzeug/wrappers/request.py", line 645, in on_json_loading_failed
+    raise BadRequest(f"Failed to decode JSON object: {e}")
+werkzeug.exceptions.BadRequest: 400 Bad Request: Failed to decode JSON object: Expecting ',' delimiter: line 4 column 3 (char 67)
+
+07.12.2023 | 15:56:29 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:56:29] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:57:43 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/API.py', reloading
+07.12.2023 | 15:57:43 [INFO]:  * Restarting with stat
+07.12.2023 | 15:57:44 [INFO]: Starting flask_restful app...
+07.12.2023 | 15:57:44 [WARNING]:  * Debugger is active!
+07.12.2023 | 15:57:44 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 15:57:49 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': None}
+07.12.2023 | 15:57:49 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 15:57:49 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 15:57:49 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:57:49] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:58:03 [ERROR]: Error processing request: 400 Bad Request: Failed to decode JSON object: Expecting ',' delimiter: line 4 column 3 (char 67)
+07.12.2023 | 15:58:03 [ERROR]: Traceback (most recent call last):
+  File "/Library/Python/3.9/site-packages/werkzeug/wrappers/request.py", line 611, in get_json
+    rv = self.json_module.loads(data)
+  File "/Library/Python/3.9/site-packages/flask/json/provider.py", line 188, in loads
+    return json.loads(s, **kwargs)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 4 column 3 (char 67)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 44, in post
+    params = parser.parse_args()
+  File "/Library/Python/3.9/site-packages/flask_restful/reqparse.py", line 328, in parse_args
+    value, found = arg.parse(req, self.bundle_errors)
+  File "/Library/Python/3.9/site-packages/flask_restful/reqparse.py", line 184, in parse
+    source = self.source(request)
+  File "/Library/Python/3.9/site-packages/flask_restful/reqparse.py", line 117, in source
+    value = getattr(request, self.location, MultiDict())
+  File "/Library/Python/3.9/site-packages/werkzeug/wrappers/request.py", line 558, in json
+    return self.get_json()
+  File "/Library/Python/3.9/site-packages/werkzeug/wrappers/request.py", line 620, in get_json
+    rv = self.on_json_loading_failed(e)
+  File "/Library/Python/3.9/site-packages/flask/wrappers.py", line 130, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+  File "/Library/Python/3.9/site-packages/werkzeug/wrappers/request.py", line 645, in on_json_loading_failed
+    raise BadRequest(f"Failed to decode JSON object: {e}")
+werkzeug.exceptions.BadRequest: 400 Bad Request: Failed to decode JSON object: Expecting ',' delimiter: line 4 column 3 (char 67)
+
+07.12.2023 | 15:58:03 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:58:03] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:58:09 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': TypeError("'int' object is not iterable")}
+07.12.2023 | 15:58:09 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 15:58:09 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 15:58:09 [INFO]: 127.0.0.1 - - [07/Dec/2023 15:58:09] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 15:59:49 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/API.py', reloading
+07.12.2023 | 15:59:49 [INFO]:  * Restarting with stat
+07.12.2023 | 15:59:50 [INFO]: Starting flask_restful app...
+07.12.2023 | 15:59:50 [WARNING]:  * Debugger is active!
+07.12.2023 | 15:59:50 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 16:00:12 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/API.py', reloading
+07.12.2023 | 16:00:12 [INFO]:  * Restarting with stat
+07.12.2023 | 16:00:12 [INFO]: Starting flask_restful app...
+07.12.2023 | 16:00:12 [WARNING]:  * Debugger is active!
+07.12.2023 | 16:00:12 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 16:00:13 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': TypeError("'int' object is not iterable")}
+07.12.2023 | 16:00:13 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:00:13 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:00:13 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:00:13] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:00:14 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': TypeError("'int' object is not iterable")}
+07.12.2023 | 16:00:14 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:00:14 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:00:14 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:00:14] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:00:18 [ERROR]: Error processing request: 400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 3 column 1 (char 20)
+07.12.2023 | 16:00:18 [ERROR]: Traceback (most recent call last):
+  File "/Library/Python/3.9/site-packages/werkzeug/wrappers/request.py", line 611, in get_json
+    rv = self.json_module.loads(data)
+  File "/Library/Python/3.9/site-packages/flask/json/provider.py", line 188, in loads
+    return json.loads(s, **kwargs)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 3 column 1 (char 20)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 44, in post
+    params = parser.parse_args()
+  File "/Library/Python/3.9/site-packages/flask_restful/reqparse.py", line 328, in parse_args
+    value, found = arg.parse(req, self.bundle_errors)
+  File "/Library/Python/3.9/site-packages/flask_restful/reqparse.py", line 184, in parse
+    source = self.source(request)
+  File "/Library/Python/3.9/site-packages/flask_restful/reqparse.py", line 117, in source
+    value = getattr(request, self.location, MultiDict())
+  File "/Library/Python/3.9/site-packages/werkzeug/wrappers/request.py", line 558, in json
+    return self.get_json()
+  File "/Library/Python/3.9/site-packages/werkzeug/wrappers/request.py", line 620, in get_json
+    rv = self.on_json_loading_failed(e)
+  File "/Library/Python/3.9/site-packages/flask/wrappers.py", line 130, in on_json_loading_failed
+    return super().on_json_loading_failed(e)
+  File "/Library/Python/3.9/site-packages/werkzeug/wrappers/request.py", line 645, in on_json_loading_failed
+    raise BadRequest(f"Failed to decode JSON object: {e}")
+werkzeug.exceptions.BadRequest: 400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 3 column 1 (char 20)
+
+07.12.2023 | 16:00:18 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:00:18] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:00:21 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': None, 'LN': None}
+07.12.2023 | 16:00:21 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:00:21 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:00:21 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:00:21] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:00:23 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': None, 'LN': None}
+07.12.2023 | 16:00:23 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:00:23 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:00:23 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:00:23] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:00:36 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': TypeError("'int' object is not iterable")}
+07.12.2023 | 16:00:36 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:00:36 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:00:36 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:00:36] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:03:09 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+07.12.2023 | 16:03:09 [INFO]:  * Restarting with stat
+07.12.2023 | 16:03:10 [INFO]: Starting flask_restful app...
+07.12.2023 | 16:03:10 [WARNING]:  * Debugger is active!
+07.12.2023 | 16:03:10 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 16:03:10 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': TypeError("'int' object is not iterable")}
+07.12.2023 | 16:03:10 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:03:10 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:03:10 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:03:10] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:03:11 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': TypeError("'int' object is not iterable")}
+07.12.2023 | 16:03:11 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:03:11 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:03:11 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:03:11] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:03:11 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': TypeError("'int' object is not iterable")}
+07.12.2023 | 16:03:11 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:03:11 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:03:11 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:03:11] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:04:35 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+07.12.2023 | 16:04:35 [INFO]:  * Restarting with stat
+07.12.2023 | 16:04:36 [INFO]: Starting flask_restful app...
+07.12.2023 | 16:04:36 [WARNING]:  * Debugger is active!
+07.12.2023 | 16:04:36 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 16:04:45 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/tester.py', reloading
+07.12.2023 | 16:04:45 [INFO]:  * Restarting with stat
+07.12.2023 | 16:04:46 [INFO]: Starting flask_restful app...
+07.12.2023 | 16:04:46 [WARNING]:  * Debugger is active!
+07.12.2023 | 16:04:46 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 16:04:55 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/tester.py', reloading
+07.12.2023 | 16:04:55 [INFO]:  * Restarting with stat
+07.12.2023 | 16:04:56 [INFO]: Starting flask_restful app...
+07.12.2023 | 16:04:56 [WARNING]:  * Debugger is active!
+07.12.2023 | 16:04:56 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 16:05:01 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/tester.py', reloading
+07.12.2023 | 16:05:01 [INFO]:  * Restarting with stat
+07.12.2023 | 16:05:01 [INFO]: Starting flask_restful app...
+07.12.2023 | 16:05:01 [WARNING]:  * Debugger is active!
+07.12.2023 | 16:05:01 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 16:05:55 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': ['10.11.2023', '15.11.2023'], 'LN': TypeError("'int' object is not iterable")}
+07.12.2023 | 16:05:55 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:05:55 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:05:55 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:05:55] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:09:17 [INFO]: Ending flask_restful app
+07.12.2023 | 16:09:17 [INFO]: Ending flask_restful app
+07.12.2023 | 16:09:17 [INFO]: Starting flask_restful app...
+07.12.2023 | 16:09:17 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+07.12.2023 | 16:09:17 [INFO]: [33mPress CTRL+C to quit[0m
+07.12.2023 | 16:09:17 [INFO]:  * Restarting with stat
+07.12.2023 | 16:09:18 [INFO]: Starting flask_restful app...
+07.12.2023 | 16:09:18 [WARNING]:  * Debugger is active!
+07.12.2023 | 16:09:18 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 16:09:22 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': "['10.11.2023', '15.11.2023']", 'LN': '[828, 830]'}
+07.12.2023 | 16:09:22 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:09:22 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:09:22 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:09:22] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:09:23 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': "['10.11.2023', '15.11.2023']", 'LN': '[828, 830]'}
+07.12.2023 | 16:09:23 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:09:23 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:09:23 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:09:23] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:09:41 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': "['10.11.2023', '15.11.2023']", 'LN': '[828, 830]'}
+07.12.2023 | 16:09:41 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:09:41 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:09:41 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:09:41] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:09:45 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': "['10.11.2023', '15.11.2023']", 'LN': '[828, 830]'}
+07.12.2023 | 16:09:45 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:09:45 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:09:45 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:09:45] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:10:53 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': "['10.11.2023', '15.11.2023']", 'LN': '828'}
+07.12.2023 | 16:10:53 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:10:53 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:10:53 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:10:53] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:10:59 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': "['10.11.2023', '15.11.2023']", 'LN': '[828]'}
+07.12.2023 | 16:10:59 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:10:59 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:10:59 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:10:59] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:11:21 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+07.12.2023 | 16:11:21 [INFO]:  * Restarting with stat
+07.12.2023 | 16:11:21 [INFO]: Starting flask_restful app...
+07.12.2023 | 16:11:21 [WARNING]:  * Debugger is active!
+07.12.2023 | 16:11:21 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 16:11:22 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': "['10.11.2023', '15.11.2023']", 'LN': '[828, 830]'}
+07.12.2023 | 16:11:22 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:11:22 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:11:22 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:11:22] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:11:23 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': "['10.11.2023', '15.11.2023']", 'LN': '[828, 830]'}
+07.12.2023 | 16:11:23 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:11:23 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:11:23 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:11:23] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:11:24 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': "['10.11.2023', '15.11.2023']", 'LN': '[828, 830]'}
+07.12.2023 | 16:11:24 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:11:24 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:11:24 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:11:24] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:11:24 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': "['10.11.2023', '15.11.2023']", 'LN': '[828, 830]'}
+07.12.2023 | 16:11:24 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:11:24 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:11:24 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:11:24] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:11:26 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': "['10.11.2023', '15.11.2023']", 'LN': '[828, 830]'}
+07.12.2023 | 16:11:26 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:11:26 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:11:26 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:11:26] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:11:45 [INFO]: Ending flask_restful app
+07.12.2023 | 16:11:45 [INFO]: Ending flask_restful app
+07.12.2023 | 16:11:47 [INFO]: Starting flask_restful app...
+07.12.2023 | 16:11:47 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+07.12.2023 | 16:11:47 [INFO]: [33mPress CTRL+C to quit[0m
+07.12.2023 | 16:11:47 [INFO]:  * Restarting with stat
+07.12.2023 | 16:11:47 [INFO]: Starting flask_restful app...
+07.12.2023 | 16:11:47 [WARNING]:  * Debugger is active!
+07.12.2023 | 16:11:47 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 16:11:50 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': "['10.11.2023', '15.11.2023']", 'LN': '[828, 830]'}
+07.12.2023 | 16:11:50 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:11:50 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:11:50 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:11:50] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:11:51 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': "['10.11.2023', '15.11.2023']", 'LN': '[828, 830]'}
+07.12.2023 | 16:11:51 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:11:51 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:11:51 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:11:51] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:11:52 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': "['10.11.2023', '15.11.2023']", 'LN': '[828, 830]'}
+07.12.2023 | 16:11:52 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:11:52 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:11:52 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:11:52] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:12:04 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/API.py', reloading
+07.12.2023 | 16:12:04 [INFO]:  * Restarting with stat
+07.12.2023 | 16:12:05 [INFO]: Starting flask_restful app...
+07.12.2023 | 16:12:05 [WARNING]:  * Debugger is active!
+07.12.2023 | 16:12:05 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 16:12:05 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': "['10.11.2023', '15.11.2023']", 'LN': '[828, 830]'}
+07.12.2023 | 16:12:05 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:12:05 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:12:05 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:12:05] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:12:06 [INFO]: Received parameters: {'courseid': 32, 'chapter': None, 'date_range': "['10.11.2023', '15.11.2023']", 'LN': '[828, 830]'}
+07.12.2023 | 16:12:06 [ERROR]: Error processing request: LN should be a list of integers.
+07.12.2023 | 16:12:06 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 50, in post
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+07.12.2023 | 16:12:06 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:12:06] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:12:15 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/API.py', reloading
+07.12.2023 | 16:12:15 [INFO]:  * Restarting with stat
+07.12.2023 | 16:12:16 [INFO]: Starting flask_restful app...
+07.12.2023 | 16:12:16 [WARNING]:  * Debugger is active!
+07.12.2023 | 16:12:16 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 16:12:17 [ERROR]: Error processing request: Error parsing date range: time data '[' does not match format '%d.%m.%Y'
+07.12.2023 | 16:12:17 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 30, in usagegraph
+    start_date, end_date = map(lambda x: datetime.strptime(x, "%d.%m.%Y").date(), date_range)
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 30, in <lambda>
+    start_date, end_date = map(lambda x: datetime.strptime(x, "%d.%m.%Y").date(), date_range)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '[' does not match format '%d.%m.%Y'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 47, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 35, in usagegraph
+    raise ValueError(f"Error parsing date range: {e}")
+ValueError: Error parsing date range: time data '[' does not match format '%d.%m.%Y'
+
+07.12.2023 | 16:12:17 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:12:17] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:12:34 [ERROR]: Error processing request: Error parsing date range: time data '[' does not match format '%d.%m.%Y'
+07.12.2023 | 16:12:34 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 30, in usagegraph
+    start_date, end_date = map(lambda x: datetime.strptime(x, "%d.%m.%Y").date(), date_range)
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 30, in <lambda>
+    start_date, end_date = map(lambda x: datetime.strptime(x, "%d.%m.%Y").date(), date_range)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '[' does not match format '%d.%m.%Y'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 47, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 35, in usagegraph
+    raise ValueError(f"Error parsing date range: {e}")
+ValueError: Error parsing date range: time data '[' does not match format '%d.%m.%Y'
+
+07.12.2023 | 16:12:34 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:12:34] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+07.12.2023 | 16:13:04 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/API.py', reloading
+07.12.2023 | 16:13:04 [INFO]:  * Restarting with stat
+07.12.2023 | 16:13:05 [INFO]: Starting flask_restful app...
+07.12.2023 | 16:13:05 [WARNING]:  * Debugger is active!
+07.12.2023 | 16:13:05 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 16:13:06 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:13:06] "POST /graph HTTP/1.1" 200 -
+07.12.2023 | 16:13:16 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+07.12.2023 | 16:13:17 [INFO]:  * Restarting with stat
+07.12.2023 | 16:13:17 [INFO]: Starting flask_restful app...
+07.12.2023 | 16:13:17 [WARNING]:  * Debugger is active!
+07.12.2023 | 16:13:17 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 16:13:18 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:13:18] "POST /graph HTTP/1.1" 200 -
+07.12.2023 | 16:19:09 [INFO]: Ending flask_restful app
+07.12.2023 | 16:19:09 [INFO]: Ending flask_restful app
+07.12.2023 | 16:29:36 [INFO]: Starting flask_restful app...
+07.12.2023 | 16:29:36 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+07.12.2023 | 16:29:36 [INFO]: [33mPress CTRL+C to quit[0m
+07.12.2023 | 16:29:36 [INFO]:  * Restarting with stat
+07.12.2023 | 16:29:36 [INFO]: Starting flask_restful app...
+07.12.2023 | 16:29:36 [WARNING]:  * Debugger is active!
+07.12.2023 | 16:29:36 [INFO]:  * Debugger PIN: 110-174-959
+07.12.2023 | 16:29:44 [INFO]: 127.0.0.1 - - [07/Dec/2023 16:29:44] "POST /graph HTTP/1.1" 200 -
+07.12.2023 | 16:31:53 [INFO]: Ending flask_restful app
+07.12.2023 | 16:31:54 [INFO]: Ending flask_restful app
+08.12.2023 | 11:40:04 [INFO]: Starting flask_restful app...
+08.12.2023 | 11:40:04 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+08.12.2023 | 11:40:04 [INFO]: [33mPress CTRL+C to quit[0m
+08.12.2023 | 11:40:04 [INFO]:  * Restarting with stat
+08.12.2023 | 11:40:04 [INFO]: Starting flask_restful app...
+08.12.2023 | 11:40:04 [WARNING]:  * Debugger is active!
+08.12.2023 | 11:40:04 [INFO]:  * Debugger PIN: 110-174-959
+08.12.2023 | 11:40:32 [INFO]: 127.0.0.1 - - [08/Dec/2023 11:40:32] "POST /graph HTTP/1.1" 200 -
+08.12.2023 | 11:41:20 [INFO]: Ending flask_restful app
+08.12.2023 | 11:41:20 [INFO]: Ending flask_restful app
+13.12.2023 | 15:40:48 [INFO]: Starting flask_restful app...
+13.12.2023 | 15:40:48 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+13.12.2023 | 15:40:48 [INFO]: [33mPress CTRL+C to quit[0m
+13.12.2023 | 15:40:48 [INFO]:  * Restarting with stat
+13.12.2023 | 15:40:48 [INFO]: Starting flask_restful app...
+13.12.2023 | 15:40:48 [WARNING]:  * Debugger is active!
+13.12.2023 | 15:40:48 [INFO]:  * Debugger PIN: 110-174-959
+13.12.2023 | 15:41:44 [INFO]: 127.0.0.1 - - [13/Dec/2023 15:41:44] "POST /graph HTTP/1.1" 200 -
+13.12.2023 | 15:52:05 [INFO]: Ending flask_restful app
+13.12.2023 | 15:52:05 [INFO]: Ending flask_restful app
+20.12.2023 | 11:16:50 [INFO]: Starting flask_restful app...
+20.12.2023 | 11:16:50 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+20.12.2023 | 11:16:50 [INFO]: [33mPress CTRL+C to quit[0m
+20.12.2023 | 11:16:50 [INFO]:  * Restarting with stat
+20.12.2023 | 11:16:51 [INFO]: Starting flask_restful app...
+20.12.2023 | 11:16:51 [WARNING]:  * Debugger is active!
+20.12.2023 | 11:16:51 [INFO]:  * Debugger PIN: 244-178-607
+20.12.2023 | 11:17:19 [INFO]: 127.0.0.1 - - [20/Dec/2023 11:17:19] "POST /graph HTTP/1.1" 200 -
+20.12.2023 | 11:17:49 [INFO]: 127.0.0.1 - - [20/Dec/2023 11:17:49] "POST /graph HTTP/1.1" 200 -
+20.12.2023 | 11:18:34 [INFO]: 127.0.0.1 - - [20/Dec/2023 11:18:34] "POST /graph HTTP/1.1" 200 -
+20.12.2023 | 11:18:44 [INFO]: 127.0.0.1 - - [20/Dec/2023 11:18:44] "POST /graph HTTP/1.1" 200 -
+20.12.2023 | 14:16:46 [INFO]: Ending flask_restful app
+20.12.2023 | 14:16:46 [INFO]: Ending flask_restful app
+20.12.2023 | 14:16:47 [INFO]: Starting flask_restful app...
+20.12.2023 | 14:16:47 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+20.12.2023 | 14:16:47 [INFO]: [33mPress CTRL+C to quit[0m
+20.12.2023 | 14:16:47 [INFO]:  * Restarting with stat
+20.12.2023 | 14:16:47 [INFO]: Starting flask_restful app...
+20.12.2023 | 14:16:47 [WARNING]:  * Debugger is active!
+20.12.2023 | 14:16:47 [INFO]:  * Debugger PIN: 244-178-607
+20.12.2023 | 14:17:12 [INFO]: 127.0.0.1 - - [20/Dec/2023 14:17:12] "POST /graph HTTP/1.1" 200 -
+20.12.2023 | 14:17:22 [INFO]: Ending flask_restful app
+20.12.2023 | 14:17:22 [INFO]: Ending flask_restful app
+03.01.2024 | 14:28:25 [INFO]: Starting flask_restful app...
+03.01.2024 | 14:28:25 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+03.01.2024 | 14:28:25 [INFO]: [33mPress CTRL+C to quit[0m
+03.01.2024 | 14:28:25 [INFO]:  * Restarting with stat
+03.01.2024 | 14:28:25 [INFO]: Starting flask_restful app...
+03.01.2024 | 14:28:25 [WARNING]:  * Debugger is active!
+03.01.2024 | 14:28:25 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 14:28:36 [ERROR]: Error processing request: Error parsing date range: End date should be after the start date.
+03.01.2024 | 14:28:36 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 32, in usagegraph
+    raise ValueError("End date should be after the start date.")
+ValueError: End date should be after the start date.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 47, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 35, in usagegraph
+    raise ValueError(f"Error parsing date range: {e}")
+ValueError: Error parsing date range: End date should be after the start date.
+
+03.01.2024 | 14:28:36 [INFO]: 127.0.0.1 - - [03/Jan/2024 14:28:36] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 14:28:49 [ERROR]: Error processing request: Error parsing date range: End date should be after the start date.
+03.01.2024 | 14:28:49 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 32, in usagegraph
+    raise ValueError("End date should be after the start date.")
+ValueError: End date should be after the start date.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 47, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 35, in usagegraph
+    raise ValueError(f"Error parsing date range: {e}")
+ValueError: Error parsing date range: End date should be after the start date.
+
+03.01.2024 | 14:28:49 [INFO]: 127.0.0.1 - - [03/Jan/2024 14:28:49] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 14:29:32 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+03.01.2024 | 14:29:32 [INFO]:  * Restarting with stat
+03.01.2024 | 14:29:33 [INFO]: Starting flask_restful app...
+03.01.2024 | 14:29:33 [WARNING]:  * Debugger is active!
+03.01.2024 | 14:29:33 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 14:29:42 [INFO]: 127.0.0.1 - - [03/Jan/2024 14:29:42] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 14:30:30 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+03.01.2024 | 14:30:30 [INFO]:  * Restarting with stat
+03.01.2024 | 14:30:30 [INFO]: Starting flask_restful app...
+03.01.2024 | 14:30:30 [WARNING]:  * Debugger is active!
+03.01.2024 | 14:30:30 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 14:32:17 [INFO]: 127.0.0.1 - - [03/Jan/2024 14:32:17] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 14:32:30 [INFO]: 127.0.0.1 - - [03/Jan/2024 14:32:30] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 14:32:36 [INFO]: 127.0.0.1 - - [03/Jan/2024 14:32:36] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 14:32:42 [INFO]: 127.0.0.1 - - [03/Jan/2024 14:32:42] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 14:32:46 [INFO]: 127.0.0.1 - - [03/Jan/2024 14:32:46] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 14:39:25 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 14:39:25 [INFO]:  * Restarting with stat
+03.01.2024 | 14:39:25 [INFO]: Starting flask_restful app...
+03.01.2024 | 14:39:25 [WARNING]:  * Debugger is active!
+03.01.2024 | 14:39:25 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 14:41:00 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 14:41:00 [INFO]:  * Restarting with stat
+03.01.2024 | 14:41:01 [INFO]: Starting flask_restful app...
+03.01.2024 | 14:41:01 [WARNING]:  * Debugger is active!
+03.01.2024 | 14:41:01 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 14:41:23 [ERROR]: Error processing request: LN should be a list of integers.
+03.01.2024 | 14:41:23 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 47, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 41, in usagegraph
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+03.01.2024 | 14:41:23 [INFO]: 127.0.0.1 - - [03/Jan/2024 14:41:23] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 14:41:38 [ERROR]: Error processing request: LN should be a list of integers.
+03.01.2024 | 14:41:38 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 47, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 41, in usagegraph
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+03.01.2024 | 14:41:38 [INFO]: 127.0.0.1 - - [03/Jan/2024 14:41:38] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 14:41:41 [INFO]: Ending flask_restful app
+03.01.2024 | 14:41:41 [INFO]: Ending flask_restful app
+03.01.2024 | 14:41:44 [INFO]: Starting flask_restful app...
+03.01.2024 | 14:41:44 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+03.01.2024 | 14:41:44 [INFO]: [33mPress CTRL+C to quit[0m
+03.01.2024 | 14:41:44 [INFO]:  * Restarting with stat
+03.01.2024 | 14:41:44 [INFO]: Starting flask_restful app...
+03.01.2024 | 14:41:44 [WARNING]:  * Debugger is active!
+03.01.2024 | 14:41:44 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 14:41:57 [ERROR]: Error processing request: LN should be a list of integers.
+03.01.2024 | 14:41:57 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 47, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 41, in usagegraph
+    raise ValueError("LN should be a list of integers.")
+ValueError: LN should be a list of integers.
+
+03.01.2024 | 14:41:57 [INFO]: 127.0.0.1 - - [03/Jan/2024 14:41:57] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 14:42:13 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 14:42:13 [INFO]:  * Restarting with stat
+03.01.2024 | 14:42:13 [INFO]: Starting flask_restful app...
+03.01.2024 | 14:42:13 [WARNING]:  * Debugger is active!
+03.01.2024 | 14:42:13 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 14:42:14 [INFO]: 127.0.0.1 - - [03/Jan/2024 14:42:14] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 14:47:40 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 14:47:40 [INFO]:  * Restarting with stat
+03.01.2024 | 14:47:41 [INFO]: Starting flask_restful app...
+03.01.2024 | 14:47:41 [WARNING]:  * Debugger is active!
+03.01.2024 | 14:47:41 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 14:48:56 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 14:48:56 [INFO]:  * Restarting with stat
+03.01.2024 | 14:48:56 [INFO]: Starting flask_restful app...
+03.01.2024 | 14:48:56 [WARNING]:  * Debugger is active!
+03.01.2024 | 14:48:56 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 14:48:57 [ERROR]: Error processing request: Can only use .dt accessor with datetimelike values
+03.01.2024 | 14:48:57 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 47, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 49, in usagegraph
+    self.df['day'] = self.df['day'].dt.date
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/generic.py", line 6204, in __getattr__
+    return object.__getattribute__(self, name)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/accessor.py", line 224, in __get__
+    accessor_obj = self._accessor(obj)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/accessors.py", line 608, in __new__
+    raise AttributeError("Can only use .dt accessor with datetimelike values")
+AttributeError: Can only use .dt accessor with datetimelike values
+
+03.01.2024 | 14:48:57 [INFO]: 127.0.0.1 - - [03/Jan/2024 14:48:57] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 14:49:00 [ERROR]: Error processing request: Can only use .dt accessor with datetimelike values
+03.01.2024 | 14:49:00 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 47, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 49, in usagegraph
+    self.df['day'] = self.df['day'].dt.date
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/generic.py", line 6204, in __getattr__
+    return object.__getattribute__(self, name)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/accessor.py", line 224, in __get__
+    accessor_obj = self._accessor(obj)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/accessors.py", line 608, in __new__
+    raise AttributeError("Can only use .dt accessor with datetimelike values")
+AttributeError: Can only use .dt accessor with datetimelike values
+
+03.01.2024 | 14:49:00 [INFO]: 127.0.0.1 - - [03/Jan/2024 14:49:00] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 14:49:51 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 14:49:51 [INFO]:  * Restarting with stat
+03.01.2024 | 14:49:52 [INFO]: Starting flask_restful app...
+03.01.2024 | 14:49:52 [WARNING]:  * Debugger is active!
+03.01.2024 | 14:49:52 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 14:49:55 [INFO]: 127.0.0.1 - - [03/Jan/2024 14:49:55] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 14:49:57 [INFO]: 127.0.0.1 - - [03/Jan/2024 14:49:57] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 14:56:32 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 14:56:32 [INFO]:  * Restarting with stat
+03.01.2024 | 14:56:33 [INFO]: Starting flask_restful app...
+03.01.2024 | 14:56:33 [WARNING]:  * Debugger is active!
+03.01.2024 | 14:56:33 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 14:56:41 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 14:56:41 [INFO]:  * Restarting with stat
+03.01.2024 | 14:56:41 [INFO]: Starting flask_restful app...
+03.01.2024 | 14:56:41 [WARNING]:  * Debugger is active!
+03.01.2024 | 14:56:41 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 14:56:47 [ERROR]: Error processing request: cannot perform __truediv__ with this index type: DatetimeArray
+03.01.2024 | 14:56:47 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 47, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 50, in usagegraph
+    self.df['day'] = pd.to_datetime(self.df['day'] / 1000, unit='s').dt.strftime('%d-%m-%Y')
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/ops/common.py", line 76, in new_method
+    return method(self, other)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/arraylike.py", line 210, in __truediv__
+    return self._arith_method(other, operator.truediv)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/series.py", line 5819, in _arith_method
+    return base.IndexOpsMixin._arith_method(self, other, op)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/base.py", line 1381, in _arith_method
+    result = ops.arithmetic_op(lvalues, rvalues, op)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/ops/array_ops.py", line 275, in arithmetic_op
+    res_values = op(left, right)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/ops/common.py", line 76, in new_method
+    return method(self, other)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/ops/invalid.py", line 59, in invalid_op
+    raise TypeError(f"cannot perform {name} with this index type: {typ}")
+TypeError: cannot perform __truediv__ with this index type: DatetimeArray
+
+03.01.2024 | 14:56:47 [INFO]: 127.0.0.1 - - [03/Jan/2024 14:56:47] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 14:57:14 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 14:57:14 [INFO]:  * Restarting with stat
+03.01.2024 | 14:57:14 [INFO]: Starting flask_restful app...
+03.01.2024 | 14:57:14 [WARNING]:  * Debugger is active!
+03.01.2024 | 14:57:14 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 14:57:17 [ERROR]: Error processing request: cannot perform __truediv__ with this index type: DatetimeArray
+03.01.2024 | 14:57:17 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 47, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 50, in usagegraph
+    self.df['day'] = pd.to_datetime(self.df['day'] / 1000, unit='s')
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/ops/common.py", line 76, in new_method
+    return method(self, other)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/arraylike.py", line 210, in __truediv__
+    return self._arith_method(other, operator.truediv)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/series.py", line 5819, in _arith_method
+    return base.IndexOpsMixin._arith_method(self, other, op)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/base.py", line 1381, in _arith_method
+    result = ops.arithmetic_op(lvalues, rvalues, op)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/ops/array_ops.py", line 275, in arithmetic_op
+    res_values = op(left, right)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/ops/common.py", line 76, in new_method
+    return method(self, other)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/ops/invalid.py", line 59, in invalid_op
+    raise TypeError(f"cannot perform {name} with this index type: {typ}")
+TypeError: cannot perform __truediv__ with this index type: DatetimeArray
+
+03.01.2024 | 14:57:17 [INFO]: 127.0.0.1 - - [03/Jan/2024 14:57:17] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 14:57:57 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 14:57:57 [INFO]:  * Restarting with stat
+03.01.2024 | 14:57:58 [INFO]: Starting flask_restful app...
+03.01.2024 | 14:57:58 [WARNING]:  * Debugger is active!
+03.01.2024 | 14:57:58 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 14:58:00 [ERROR]: Error processing request: unit='s' not valid with non-numerical val='2023-12-21', at position 0
+03.01.2024 | 14:58:00 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 47, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 49, in usagegraph
+    self.df['day'] = pd.to_datetime(self.df['day'], unit='s')
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 1108, in to_datetime
+    cache_array = _maybe_cache(arg, format, cache, convert_listlike)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 254, in _maybe_cache
+    cache_dates = convert_listlike(unique_dates, format)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 462, in _convert_listlike_datetimes
+    return _to_datetime_with_unit(arg, unit, name, utc, errors)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 574, in _to_datetime_with_unit
+    arr, tz_parsed = tslib.array_with_unit_to_datetime(arg, unit, errors=errors)
+  File "tslib.pyx", line 333, in pandas._libs.tslib.array_with_unit_to_datetime
+  File "tslib.pyx", line 326, in pandas._libs.tslib.array_with_unit_to_datetime
+ValueError: unit='s' not valid with non-numerical val='2023-12-21', at position 0
+
+03.01.2024 | 14:58:00 [INFO]: 127.0.0.1 - - [03/Jan/2024 14:58:00] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 14:58:01 [ERROR]: Error processing request: unit='s' not valid with non-numerical val='2023-12-21', at position 0
+03.01.2024 | 14:58:01 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 47, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 49, in usagegraph
+    self.df['day'] = pd.to_datetime(self.df['day'], unit='s')
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 1108, in to_datetime
+    cache_array = _maybe_cache(arg, format, cache, convert_listlike)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 254, in _maybe_cache
+    cache_dates = convert_listlike(unique_dates, format)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 462, in _convert_listlike_datetimes
+    return _to_datetime_with_unit(arg, unit, name, utc, errors)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 574, in _to_datetime_with_unit
+    arr, tz_parsed = tslib.array_with_unit_to_datetime(arg, unit, errors=errors)
+  File "tslib.pyx", line 333, in pandas._libs.tslib.array_with_unit_to_datetime
+  File "tslib.pyx", line 326, in pandas._libs.tslib.array_with_unit_to_datetime
+ValueError: unit='s' not valid with non-numerical val='2023-12-21', at position 0
+
+03.01.2024 | 14:58:01 [INFO]: 127.0.0.1 - - [03/Jan/2024 14:58:01] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 14:58:03 [ERROR]: Error processing request: unit='s' not valid with non-numerical val='2023-12-21', at position 0
+03.01.2024 | 14:58:03 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 47, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 49, in usagegraph
+    self.df['day'] = pd.to_datetime(self.df['day'], unit='s')
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 1108, in to_datetime
+    cache_array = _maybe_cache(arg, format, cache, convert_listlike)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 254, in _maybe_cache
+    cache_dates = convert_listlike(unique_dates, format)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 462, in _convert_listlike_datetimes
+    return _to_datetime_with_unit(arg, unit, name, utc, errors)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 574, in _to_datetime_with_unit
+    arr, tz_parsed = tslib.array_with_unit_to_datetime(arg, unit, errors=errors)
+  File "tslib.pyx", line 333, in pandas._libs.tslib.array_with_unit_to_datetime
+  File "tslib.pyx", line 326, in pandas._libs.tslib.array_with_unit_to_datetime
+ValueError: unit='s' not valid with non-numerical val='2023-12-21', at position 0
+
+03.01.2024 | 14:58:03 [INFO]: 127.0.0.1 - - [03/Jan/2024 14:58:03] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 14:59:14 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 14:59:14 [INFO]:  * Restarting with stat
+03.01.2024 | 14:59:15 [INFO]: Starting flask_restful app...
+03.01.2024 | 14:59:15 [WARNING]:  * Debugger is active!
+03.01.2024 | 14:59:15 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 14:59:16 [INFO]: 127.0.0.1 - - [03/Jan/2024 14:59:16] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 15:00:00 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:00:00 [INFO]:  * Restarting with stat
+03.01.2024 | 15:00:00 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:00:00 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:00:00 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:00:03 [ERROR]: Error processing request: unit='D' not valid with non-numerical val='2023-12-21', at position 0
+03.01.2024 | 15:00:03 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 47, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 49, in usagegraph
+    self.df['day'] = pd.to_datetime(self.df['day'], unit='D')
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 1108, in to_datetime
+    cache_array = _maybe_cache(arg, format, cache, convert_listlike)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 254, in _maybe_cache
+    cache_dates = convert_listlike(unique_dates, format)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 462, in _convert_listlike_datetimes
+    return _to_datetime_with_unit(arg, unit, name, utc, errors)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 574, in _to_datetime_with_unit
+    arr, tz_parsed = tslib.array_with_unit_to_datetime(arg, unit, errors=errors)
+  File "tslib.pyx", line 333, in pandas._libs.tslib.array_with_unit_to_datetime
+  File "tslib.pyx", line 326, in pandas._libs.tslib.array_with_unit_to_datetime
+ValueError: unit='D' not valid with non-numerical val='2023-12-21', at position 0
+
+03.01.2024 | 15:00:03 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:00:03] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 15:09:21 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:09:21 [INFO]:  * Restarting with stat
+03.01.2024 | 15:09:21 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:09:21 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:09:21 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:10:05 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:10:05 [INFO]:  * Restarting with stat
+03.01.2024 | 15:10:05 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:10:05 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:10:05 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:10:07 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:10:07] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 15:10:42 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:10:42 [INFO]:  * Restarting with stat
+03.01.2024 | 15:10:43 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:10:43 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:10:43 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:10:43 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:10:43] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 15:11:49 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:11:49 [INFO]:  * Restarting with stat
+03.01.2024 | 15:11:49 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:11:49 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:11:49 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:11:52 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:11:52] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 15:19:27 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+03.01.2024 | 15:19:27 [INFO]:  * Restarting with stat
+03.01.2024 | 15:19:27 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:19:27 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:19:27 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:19:28 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:19:28] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 15:20:25 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:20:25 [INFO]:  * Restarting with stat
+03.01.2024 | 15:20:26 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:20:26 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:20:26 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:20:26 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:20:26] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 15:20:46 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:20:46 [INFO]:  * Restarting with stat
+03.01.2024 | 15:20:46 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:20:46 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:20:46 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:20:47 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:20:47] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 15:21:09 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:21:09 [INFO]:  * Restarting with stat
+03.01.2024 | 15:21:09 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:21:09 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:21:09 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:21:15 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:21:15] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 15:21:44 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:21:44 [INFO]:  * Restarting with stat
+03.01.2024 | 15:21:44 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:21:44 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:21:44 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:21:46 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:21:46] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 15:22:13 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:22:13 [INFO]:  * Restarting with stat
+03.01.2024 | 15:22:13 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:22:13 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:22:13 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:22:26 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:22:26 [INFO]:  * Restarting with stat
+03.01.2024 | 15:22:27 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:22:27 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:22:27 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:24:12 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:24:12 [INFO]:  * Restarting with stat
+03.01.2024 | 15:24:13 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:24:13 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:24:13 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:24:14 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:24:14] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 15:25:34 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:25:34 [INFO]:  * Restarting with stat
+03.01.2024 | 15:25:35 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:25:35 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:25:35 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:25:38 [ERROR]: Error processing request: Can only use .dt accessor with datetimelike values
+03.01.2024 | 15:25:38 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 47, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 44, in usagegraph
+    self.df['day'] = self.df['day'].dt.strftime('%d-%m-%Y')
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/generic.py", line 6204, in __getattr__
+    return object.__getattribute__(self, name)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/accessor.py", line 224, in __get__
+    accessor_obj = self._accessor(obj)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/accessors.py", line 608, in __new__
+    raise AttributeError("Can only use .dt accessor with datetimelike values")
+AttributeError: Can only use .dt accessor with datetimelike values
+
+03.01.2024 | 15:25:38 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:25:38] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 15:26:00 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:26:00 [INFO]:  * Restarting with stat
+03.01.2024 | 15:26:00 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:26:00 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:26:00 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:26:02 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:26:02] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 15:26:19 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:26:19 [INFO]:  * Restarting with stat
+03.01.2024 | 15:26:19 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:26:19 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:26:19 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:26:48 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:26:48 [INFO]:  * Restarting with stat
+03.01.2024 | 15:26:48 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:26:48 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:26:48 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:26:49 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:26:49] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 15:28:23 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:28:23 [INFO]:  * Restarting with stat
+03.01.2024 | 15:28:23 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:28:23 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:28:23 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:28:31 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:28:31 [INFO]:  * Restarting with stat
+03.01.2024 | 15:28:31 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:28:31 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:28:31 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:28:33 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:28:33] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 15:28:44 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:28:44 [INFO]:  * Restarting with stat
+03.01.2024 | 15:28:45 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:28:45 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:28:45 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:28:47 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:28:47] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 15:29:02 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:29:02 [INFO]:  * Restarting with stat
+03.01.2024 | 15:29:02 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:29:02 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:29:02 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:29:06 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:29:06] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 15:29:36 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:29:36 [INFO]:  * Restarting with stat
+03.01.2024 | 15:29:37 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:29:37 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:29:37 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:32:38 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/API.py', reloading
+03.01.2024 | 15:32:38 [INFO]:  * Restarting with stat
+03.01.2024 | 15:32:39 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:32:39 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:32:39 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:33:03 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:33:03 [INFO]:  * Restarting with stat
+03.01.2024 | 15:33:04 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:33:04 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:33:04 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:33:04 [ERROR]: Error processing request: name 'string' is not defined
+03.01.2024 | 15:33:04 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 44, in post
+    parser.add_argument("json", location="json", type=string)
+NameError: name 'string' is not defined
+
+03.01.2024 | 15:33:04 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:33:04] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 15:33:06 [ERROR]: Error processing request: name 'string' is not defined
+03.01.2024 | 15:33:06 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 44, in post
+    parser.add_argument("json", location="json", type=string)
+NameError: name 'string' is not defined
+
+03.01.2024 | 15:33:06 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:33:06] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 15:33:22 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/API.py', reloading
+03.01.2024 | 15:33:22 [INFO]:  * Restarting with stat
+03.01.2024 | 15:33:22 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:33:22 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:33:22 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:33:23 [ERROR]: Error processing request: Expecting value: line 1 column 1 (char 0)
+03.01.2024 | 15:33:23 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 55, in post
+    return json.loads(json_result)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+03.01.2024 | 15:33:23 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:33:23] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 15:34:10 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/API.py', reloading
+03.01.2024 | 15:34:10 [INFO]:  * Restarting with stat
+03.01.2024 | 15:34:11 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:34:11 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:34:11 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:34:11 [ERROR]: Error processing request: usagegraph() got an unexpected keyword argument 'json'
+03.01.2024 | 15:34:11 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+TypeError: usagegraph() got an unexpected keyword argument 'json'
+
+03.01.2024 | 15:34:11 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:34:11] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 15:34:14 [ERROR]: Error processing request: usagegraph() got an unexpected keyword argument 'json'
+03.01.2024 | 15:34:14 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+TypeError: usagegraph() got an unexpected keyword argument 'json'
+
+03.01.2024 | 15:34:14 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:34:14] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 15:36:32 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/API.py', reloading
+03.01.2024 | 15:36:32 [INFO]:  * Restarting with stat
+03.01.2024 | 15:36:32 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:36:32 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:36:32 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:36:34 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:36:34] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 15:36:43 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:36:43] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 15:36:48 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:36:48] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 15:36:53 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:36:53] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 15:36:59 [ERROR]: Error processing request: Expecting value: line 1 column 1 (char 0)
+03.01.2024 | 15:36:59 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 56, in post
+    return json.loads(json_result)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+03.01.2024 | 15:36:59 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:36:59] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 15:42:07 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:42:07 [INFO]:  * Restarting with stat
+03.01.2024 | 15:42:08 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:42:08 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:42:08 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:42:09 [ERROR]: Error processing request: Expecting value: line 1 column 1 (char 0)
+03.01.2024 | 15:42:09 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 56, in post
+    return json.loads(json_result)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+03.01.2024 | 15:42:09 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:42:09] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 15:42:11 [ERROR]: Error processing request: Expecting value: line 1 column 1 (char 0)
+03.01.2024 | 15:42:11 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 56, in post
+    return json.loads(json_result)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+03.01.2024 | 15:42:11 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:42:11] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 15:43:44 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:43:44 [INFO]:  * Restarting with stat
+03.01.2024 | 15:43:44 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:43:44 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:43:44 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:43:45 [ERROR]: Error processing request: Expecting value: line 1 column 1 (char 0)
+03.01.2024 | 15:43:45 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 56, in post
+    return json.loads(json_result)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+03.01.2024 | 15:43:45 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:43:45] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 15:43:47 [ERROR]: Error processing request: Expecting value: line 1 column 1 (char 0)
+03.01.2024 | 15:43:47 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 56, in post
+    return json.loads(json_result)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+03.01.2024 | 15:43:47 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:43:47] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 15:43:48 [ERROR]: Error processing request: Expecting value: line 1 column 1 (char 0)
+03.01.2024 | 15:43:48 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 56, in post
+    return json.loads(json_result)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+03.01.2024 | 15:43:48 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:43:48] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 15:44:08 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:44:08 [INFO]:  * Restarting with stat
+03.01.2024 | 15:44:09 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:44:09 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:44:09 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:44:10 [ERROR]: Error processing request: Expecting value: line 1 column 1 (char 0)
+03.01.2024 | 15:44:10 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 56, in post
+    return json.loads(json_result)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+03.01.2024 | 15:44:10 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:44:10] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 15:44:12 [ERROR]: Error processing request: Expecting value: line 1 column 1 (char 0)
+03.01.2024 | 15:44:12 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 56, in post
+    return json.loads(json_result)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+03.01.2024 | 15:44:12 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:44:12] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 15:44:44 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:44:44 [INFO]:  * Restarting with stat
+03.01.2024 | 15:44:44 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:44:44 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:44:44 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:51:00 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:51:00 [INFO]:  * Restarting with stat
+03.01.2024 | 15:51:00 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:51:00 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:51:00 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:51:02 [ERROR]: Error processing request: Expecting value: line 1 column 1 (char 0)
+03.01.2024 | 15:51:02 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 56, in post
+    return json.loads(json_result)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+03.01.2024 | 15:51:02 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:51:02] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 15:51:22 [ERROR]: Error processing request: Expecting value: line 1 column 1 (char 0)
+03.01.2024 | 15:51:22 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 56, in post
+    return json.loads(json_result)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+03.01.2024 | 15:51:22 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:51:22] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 15:51:28 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:51:28] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 15:53:18 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:53:18 [INFO]:  * Restarting with stat
+03.01.2024 | 15:53:18 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:53:18 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:53:18 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:53:19 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:53:19] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 15:53:34 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:53:34] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 15:53:40 [ERROR]: Error processing request: local variable 'json_result' referenced before assignment
+03.01.2024 | 15:53:40 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 60, in usagegraph
+    return json_result
+UnboundLocalError: local variable 'json_result' referenced before assignment
+
+03.01.2024 | 15:53:40 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:53:40] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 15:53:59 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:53:59 [INFO]:  * Restarting with stat
+03.01.2024 | 15:53:59 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:53:59 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:53:59 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:54:00 [ERROR]: Error processing request: Expecting value: line 1 column 1 (char 0)
+03.01.2024 | 15:54:00 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 56, in post
+    return json.loads(json_result)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+03.01.2024 | 15:54:00 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:54:00] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 15:54:02 [ERROR]: Error processing request: Expecting value: line 1 column 1 (char 0)
+03.01.2024 | 15:54:02 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 56, in post
+    return json.loads(json_result)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+03.01.2024 | 15:54:02 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:54:02] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 15:54:39 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:54:39 [INFO]:  * Restarting with stat
+03.01.2024 | 15:54:39 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:54:39 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:54:39 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:56:52 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 15:56:52 [INFO]:  * Restarting with stat
+03.01.2024 | 15:56:53 [INFO]: Starting flask_restful app...
+03.01.2024 | 15:56:53 [WARNING]:  * Debugger is active!
+03.01.2024 | 15:56:53 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 15:56:54 [ERROR]: Error processing request: Allowed JSON values are: {'split', 'records', 'index', 'columns', 'values', 'table'}
+03.01.2024 | 15:56:54 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 53, in usagegraph
+    raise ValueError("Allowed JSON values are: {'split', 'records', 'index', 'columns', 'values', 'table'}")
+ValueError: Allowed JSON values are: {'split', 'records', 'index', 'columns', 'values', 'table'}
+
+03.01.2024 | 15:56:54 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:56:54] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 15:56:58 [ERROR]: Error processing request: Allowed JSON values are: {'split', 'records', 'index', 'columns', 'values', 'table'}
+03.01.2024 | 15:56:58 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 53, in usagegraph
+    raise ValueError("Allowed JSON values are: {'split', 'records', 'index', 'columns', 'values', 'table'}")
+ValueError: Allowed JSON values are: {'split', 'records', 'index', 'columns', 'values', 'table'}
+
+03.01.2024 | 15:56:58 [INFO]: 127.0.0.1 - - [03/Jan/2024 15:56:58] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+03.01.2024 | 16:00:03 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+03.01.2024 | 16:00:03 [INFO]:  * Restarting with stat
+03.01.2024 | 16:00:04 [INFO]: Starting flask_restful app...
+03.01.2024 | 16:00:04 [WARNING]:  * Debugger is active!
+03.01.2024 | 16:00:04 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 16:00:08 [INFO]: 127.0.0.1 - - [03/Jan/2024 16:00:08] "POST /graph HTTP/1.1" 200 -
+03.01.2024 | 16:18:17 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+03.01.2024 | 16:18:17 [INFO]:  * Restarting with stat
+03.01.2024 | 16:18:17 [INFO]: Starting flask_restful app...
+03.01.2024 | 16:18:17 [WARNING]:  * Debugger is active!
+03.01.2024 | 16:18:17 [INFO]:  * Debugger PIN: 244-178-607
+03.01.2024 | 16:28:20 [INFO]: Ending flask_restful app
+03.01.2024 | 16:28:20 [INFO]: Ending flask_restful app
+04.01.2024 | 16:25:46 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:25:46 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+04.01.2024 | 16:25:46 [INFO]: [33mPress CTRL+C to quit[0m
+04.01.2024 | 16:25:46 [INFO]:  * Restarting with stat
+04.01.2024 | 16:25:46 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:25:46 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:25:46 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:26:00 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:26:00] "POST /graph HTTP/1.1" 200 -
+04.01.2024 | 16:44:48 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:44:48 [INFO]:  * Restarting with stat
+04.01.2024 | 16:44:49 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:44:49 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:44:49 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:45:00 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:45:00 [INFO]:  * Restarting with stat
+04.01.2024 | 16:45:00 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:45:00 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:45:00 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:45:03 [ERROR]: Error processing request: Length mismatch: Expected axis has 8 elements, new values have 9 elements
+04.01.2024 | 16:45:03 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 65, in usagegraph
+    self.grouped_df.columns = ['day', 'courseid', 'coursename', 'lectureDate', 'membersInCourse', 'nuggetName',
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/generic.py", line 6218, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "properties.pyx", line 69, in pandas._libs.properties.AxisProperty.__set__
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/generic.py", line 767, in _set_axis
+    self._mgr.set_axis(axis, labels)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/internals/managers.py", line 227, in set_axis
+    self._validate_set_axis(axis, new_labels)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/internals/base.py", line 85, in _validate_set_axis
+    raise ValueError(
+ValueError: Length mismatch: Expected axis has 8 elements, new values have 9 elements
+
+04.01.2024 | 16:45:03 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:45:03] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:45:42 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:45:42 [INFO]:  * Restarting with stat
+04.01.2024 | 16:45:43 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:45:43 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:45:43 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:45:49 [ERROR]: Error processing request: time data "21-12-2023" doesn't match format "%m-%d-%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+04.01.2024 | 16:45:49 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 68, in usagegraph
+    self.grouped_df['day'] = pd.to_datetime(self.grouped_df['day']).dt.strftime('%d-%m-%Y')
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 1112, in to_datetime
+    values = convert_listlike(arg._values, format)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 488, in _convert_listlike_datetimes
+    return _array_strptime_with_fallback(arg, name, utc, format, exact, errors)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 519, in _array_strptime_with_fallback
+    result, timezones = array_strptime(arg, fmt, exact=exact, errors=errors, utc=utc)
+  File "strptime.pyx", line 534, in pandas._libs.tslibs.strptime.array_strptime
+  File "strptime.pyx", line 355, in pandas._libs.tslibs.strptime.array_strptime
+ValueError: time data "21-12-2023" doesn't match format "%m-%d-%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+
+04.01.2024 | 16:45:49 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:45:49] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:46:16 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:46:16 [INFO]:  * Restarting with stat
+04.01.2024 | 16:46:17 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:46:17 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:46:17 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:46:25 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:46:25 [INFO]:  * Restarting with stat
+04.01.2024 | 16:46:25 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:46:25 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:46:25 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:46:28 [ERROR]: Error processing request: time data "21-12-2023" doesn't match format "%m-%d-%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+04.01.2024 | 16:46:28 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 68, in usagegraph
+    self.grouped_df['day'] = pd.to_datetime(self.grouped_df['day']).dt.strftime('%d-%m-%Y')
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 1112, in to_datetime
+    values = convert_listlike(arg._values, format)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 488, in _convert_listlike_datetimes
+    return _array_strptime_with_fallback(arg, name, utc, format, exact, errors)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 519, in _array_strptime_with_fallback
+    result, timezones = array_strptime(arg, fmt, exact=exact, errors=errors, utc=utc)
+  File "strptime.pyx", line 534, in pandas._libs.tslibs.strptime.array_strptime
+  File "strptime.pyx", line 355, in pandas._libs.tslibs.strptime.array_strptime
+ValueError: time data "21-12-2023" doesn't match format "%m-%d-%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+
+04.01.2024 | 16:46:28 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:46:28] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:46:31 [ERROR]: Error processing request: time data "21-12-2023" doesn't match format "%m-%d-%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+04.01.2024 | 16:46:31 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 68, in usagegraph
+    self.grouped_df['day'] = pd.to_datetime(self.grouped_df['day']).dt.strftime('%d-%m-%Y')
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 1112, in to_datetime
+    values = convert_listlike(arg._values, format)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 488, in _convert_listlike_datetimes
+    return _array_strptime_with_fallback(arg, name, utc, format, exact, errors)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 519, in _array_strptime_with_fallback
+    result, timezones = array_strptime(arg, fmt, exact=exact, errors=errors, utc=utc)
+  File "strptime.pyx", line 534, in pandas._libs.tslibs.strptime.array_strptime
+  File "strptime.pyx", line 355, in pandas._libs.tslibs.strptime.array_strptime
+ValueError: time data "21-12-2023" doesn't match format "%m-%d-%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+
+04.01.2024 | 16:46:31 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:46:31] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:47:23 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:47:24 [INFO]:  * Restarting with stat
+04.01.2024 | 16:47:24 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:47:24 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:47:24 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:47:25 [ERROR]: Error processing request: time data "21-12-2023" doesn't match format "%m-%d-%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+04.01.2024 | 16:47:25 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 72, in usagegraph
+    grouped_df['day'] = pd.to_datetime(grouped_df['day']).dt.strftime('%d-%m-%Y')
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 1112, in to_datetime
+    values = convert_listlike(arg._values, format)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 488, in _convert_listlike_datetimes
+    return _array_strptime_with_fallback(arg, name, utc, format, exact, errors)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/tools/datetimes.py", line 519, in _array_strptime_with_fallback
+    result, timezones = array_strptime(arg, fmt, exact=exact, errors=errors, utc=utc)
+  File "strptime.pyx", line 534, in pandas._libs.tslibs.strptime.array_strptime
+  File "strptime.pyx", line 355, in pandas._libs.tslibs.strptime.array_strptime
+ValueError: time data "21-12-2023" doesn't match format "%m-%d-%Y", at position 4. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+
+04.01.2024 | 16:47:25 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:47:25] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:47:54 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:47:54 [INFO]:  * Restarting with stat
+04.01.2024 | 16:47:54 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:47:54 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:47:54 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:47:55 [ERROR]: Error processing request: 'user_id count'
+04.01.2024 | 16:47:55 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 181, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'user_id count'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 80, in usagegraph
+    grouped_df['count_user_id'] = grouped_df['user_id count'].astype(str)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'user_id count'
+
+04.01.2024 | 16:47:55 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:47:55] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:48:47 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:48:47 [INFO]:  * Restarting with stat
+04.01.2024 | 16:48:48 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:48:48 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:48:48 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:48:49 [ERROR]: Error processing request: 'user_id count'
+04.01.2024 | 16:48:49 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 181, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'user_id count'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 81, in usagegraph
+    grouped_df['count_user_id'] = grouped_df['user_id count'].astype(str)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'user_id count'
+
+04.01.2024 | 16:48:49 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:48:49] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:49:45 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:49:45 [INFO]:  * Restarting with stat
+04.01.2024 | 16:49:45 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:49:45 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:49:45 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:49:46 [ERROR]: Error processing request: 'day'
+04.01.2024 | 16:49:46 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 219, in pandas._libs.index.IndexEngine._get_loc_duplicates
+  File "index.pyx", line 227, in pandas._libs.index.IndexEngine._maybe_get_bool_indexer
+  File "index.pyx", line 119, in pandas._libs.index._unpack_bool_indexer
+KeyError: 'day'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 72, in usagegraph
+    grouped_df['day'] = pd.to_datetime(grouped_df['day'], format='%d-%m-%Y').dt.strftime('%d-%m-%Y')
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'day'
+
+04.01.2024 | 16:49:46 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:49:46] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:50:33 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:50:33 [INFO]:  * Restarting with stat
+04.01.2024 | 16:50:34 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:50:34 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:50:34 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:50:35 [ERROR]: Error processing request: ('user_id', 'count')
+04.01.2024 | 16:50:35 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 181, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: ('user_id', 'count')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 77, in usagegraph
+    grouped_df['count_user_id'] = grouped_df[('user_id', 'count')].astype(str)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: ('user_id', 'count')
+
+04.01.2024 | 16:50:35 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:50:35] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:51:15 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:51:15 [INFO]:  * Restarting with stat
+04.01.2024 | 16:51:16 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:51:16 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:51:16 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:51:17 [ERROR]: Error processing request: 'lectureDate'
+04.01.2024 | 16:51:17 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 219, in pandas._libs.index.IndexEngine._get_loc_duplicates
+  File "index.pyx", line 227, in pandas._libs.index.IndexEngine._maybe_get_bool_indexer
+  File "index.pyx", line 119, in pandas._libs.index._unpack_bool_indexer
+KeyError: 'lectureDate'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 71, in usagegraph
+    grouped_df['lectureDate'] = grouped_df['lectureDate'].apply(lambda x: [str(d) for d in x])
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'lectureDate'
+
+04.01.2024 | 16:51:17 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:51:17] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:52:08 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:52:08 [INFO]:  * Restarting with stat
+04.01.2024 | 16:52:08 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:52:08 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:52:08 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:52:26 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:52:26 [INFO]:  * Restarting with stat
+04.01.2024 | 16:52:26 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:52:26 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:52:26 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:52:27 [ERROR]: Error processing request: 'nuggetName'
+04.01.2024 | 16:52:27 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 219, in pandas._libs.index.IndexEngine._get_loc_duplicates
+  File "index.pyx", line 227, in pandas._libs.index.IndexEngine._maybe_get_bool_indexer
+  File "index.pyx", line 119, in pandas._libs.index._unpack_bool_indexer
+KeyError: 'nuggetName'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 71, in usagegraph
+    grouped_df['nuggetName'] = grouped_df['nuggetName'].apply(lambda x: [str(n) for n in x])
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'nuggetName'
+
+04.01.2024 | 16:52:27 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:52:27] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:53:05 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:53:05 [INFO]:  * Restarting with stat
+04.01.2024 | 16:53:05 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:53:05 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:53:05 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:53:06 [ERROR]: Error processing request: 'nuggetName'
+04.01.2024 | 16:53:06 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 219, in pandas._libs.index.IndexEngine._get_loc_duplicates
+  File "index.pyx", line 227, in pandas._libs.index.IndexEngine._maybe_get_bool_indexer
+  File "index.pyx", line 119, in pandas._libs.index._unpack_bool_indexer
+KeyError: 'nuggetName'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 71, in usagegraph
+    grouped_df['nuggetName'] = grouped_df['nuggetName'].apply(lambda x: [str(n) for n in x])
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'nuggetName'
+
+04.01.2024 | 16:53:06 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:53:06] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:54:04 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:54:04 [INFO]:  * Restarting with stat
+04.01.2024 | 16:54:05 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:54:05 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:54:05 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:54:06 [ERROR]: Error processing request: 'nuggetName'
+04.01.2024 | 16:54:06 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 219, in pandas._libs.index.IndexEngine._get_loc_duplicates
+  File "index.pyx", line 227, in pandas._libs.index.IndexEngine._maybe_get_bool_indexer
+  File "index.pyx", line 119, in pandas._libs.index._unpack_bool_indexer
+KeyError: 'nuggetName'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 71, in usagegraph
+    grouped_df['nuggetName'] = grouped_df['nuggetName'].apply(lambda x: [str(n) for n in x])
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'nuggetName'
+
+04.01.2024 | 16:54:06 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:54:06] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:54:08 [ERROR]: Error processing request: 'nuggetName'
+04.01.2024 | 16:54:08 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 219, in pandas._libs.index.IndexEngine._get_loc_duplicates
+  File "index.pyx", line 227, in pandas._libs.index.IndexEngine._maybe_get_bool_indexer
+  File "index.pyx", line 119, in pandas._libs.index._unpack_bool_indexer
+KeyError: 'nuggetName'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 71, in usagegraph
+    grouped_df['nuggetName'] = grouped_df['nuggetName'].apply(lambda x: [str(n) for n in x])
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'nuggetName'
+
+04.01.2024 | 16:54:08 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:54:08] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:54:45 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:54:45 [INFO]:  * Restarting with stat
+04.01.2024 | 16:54:45 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:54:45 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:54:45 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:54:48 [ERROR]: Error processing request: 'nuggetName'
+04.01.2024 | 16:54:48 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 219, in pandas._libs.index.IndexEngine._get_loc_duplicates
+  File "index.pyx", line 227, in pandas._libs.index.IndexEngine._maybe_get_bool_indexer
+  File "index.pyx", line 119, in pandas._libs.index._unpack_bool_indexer
+KeyError: 'nuggetName'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 71, in usagegraph
+    grouped_df['nuggetName'] = grouped_df['nuggetName'].apply(lambda x: [str(n) for n in x])
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'nuggetName'
+
+04.01.2024 | 16:54:48 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:54:48] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:54:56 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:54:56 [INFO]:  * Restarting with stat
+04.01.2024 | 16:54:57 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:54:57 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:54:57 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:54:58 [ERROR]: Error processing request: 'nuggetName'
+04.01.2024 | 16:54:58 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 219, in pandas._libs.index.IndexEngine._get_loc_duplicates
+  File "index.pyx", line 227, in pandas._libs.index.IndexEngine._maybe_get_bool_indexer
+  File "index.pyx", line 119, in pandas._libs.index._unpack_bool_indexer
+KeyError: 'nuggetName'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 72, in usagegraph
+    grouped_df['nuggetName'] = grouped_df['nuggetName'].apply(lambda x: [str(n) for n in x])
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'nuggetName'
+
+04.01.2024 | 16:54:58 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:54:58] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:55:28 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:55:28 [INFO]:  * Restarting with stat
+04.01.2024 | 16:55:29 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:55:29 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:55:29 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:55:30 [ERROR]: Error processing request: 'nuggetName'
+04.01.2024 | 16:55:30 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 219, in pandas._libs.index.IndexEngine._get_loc_duplicates
+  File "index.pyx", line 227, in pandas._libs.index.IndexEngine._maybe_get_bool_indexer
+  File "index.pyx", line 119, in pandas._libs.index._unpack_bool_indexer
+KeyError: 'nuggetName'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 72, in usagegraph
+    grouped_df['nuggetName'] = grouped_df['nuggetName'].apply(lambda x: [str(n) for n in x])
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'nuggetName'
+
+04.01.2024 | 16:55:30 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:55:30] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:55:44 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:55:44 [INFO]:  * Restarting with stat
+04.01.2024 | 16:55:44 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:55:44 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:55:44 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:55:45 [ERROR]: Error processing request: 'nuggetName'
+04.01.2024 | 16:55:45 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 219, in pandas._libs.index.IndexEngine._get_loc_duplicates
+  File "index.pyx", line 227, in pandas._libs.index.IndexEngine._maybe_get_bool_indexer
+  File "index.pyx", line 119, in pandas._libs.index._unpack_bool_indexer
+KeyError: 'nuggetName'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 71, in usagegraph
+    grouped_df['nuggetName'] = grouped_df['nuggetName'].apply(lambda x: [str(n) for n in x])
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'nuggetName'
+
+04.01.2024 | 16:55:45 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:55:45] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:55:56 [ERROR]: Error processing request: 'nuggetName'
+04.01.2024 | 16:55:56 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 219, in pandas._libs.index.IndexEngine._get_loc_duplicates
+  File "index.pyx", line 227, in pandas._libs.index.IndexEngine._maybe_get_bool_indexer
+  File "index.pyx", line 119, in pandas._libs.index._unpack_bool_indexer
+KeyError: 'nuggetName'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 71, in usagegraph
+    grouped_df['nuggetName'] = grouped_df['nuggetName'].apply(lambda x: [str(n) for n in x])
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'nuggetName'
+
+04.01.2024 | 16:55:56 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:55:56] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:56:10 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:56:10 [INFO]:  * Restarting with stat
+04.01.2024 | 16:56:10 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:56:10 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:56:10 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:56:12 [ERROR]: Error processing request: 'nuggetName'
+04.01.2024 | 16:56:12 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 219, in pandas._libs.index.IndexEngine._get_loc_duplicates
+  File "index.pyx", line 227, in pandas._libs.index.IndexEngine._maybe_get_bool_indexer
+  File "index.pyx", line 119, in pandas._libs.index._unpack_bool_indexer
+KeyError: 'nuggetName'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 71, in usagegraph
+    grouped_df['nuggetName'] = grouped_df['nuggetName'].apply(lambda x: [str(n) for n in x])
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'nuggetName'
+
+04.01.2024 | 16:56:12 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:56:12] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:57:24 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:57:24 [INFO]:  * Restarting with stat
+04.01.2024 | 16:57:24 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:57:24 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:57:24 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:57:25 [ERROR]: Error processing request: 'user_id count'
+04.01.2024 | 16:57:25 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 219, in pandas._libs.index.IndexEngine._get_loc_duplicates
+  File "index.pyx", line 227, in pandas._libs.index.IndexEngine._maybe_get_bool_indexer
+  File "index.pyx", line 119, in pandas._libs.index._unpack_bool_indexer
+KeyError: 'user_id count'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 77, in usagegraph
+    grouped_df['count_user_id'] = grouped_df['user_id count'].astype(str)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'user_id count'
+
+04.01.2024 | 16:57:25 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:57:25] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:58:08 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:58:08 [INFO]:  * Restarting with stat
+04.01.2024 | 16:58:09 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:58:09 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:58:09 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:58:10 [ERROR]: Error processing request: ('user_id', 'count')
+04.01.2024 | 16:58:10 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 219, in pandas._libs.index.IndexEngine._get_loc_duplicates
+  File "index.pyx", line 227, in pandas._libs.index.IndexEngine._maybe_get_bool_indexer
+  File "index.pyx", line 119, in pandas._libs.index._unpack_bool_indexer
+KeyError: ('user_id', 'count')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 76, in usagegraph
+    grouped_df['count_user_id'] = grouped_df[('user_id', 'count')].astype(str)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: ('user_id', 'count')
+
+04.01.2024 | 16:58:10 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:58:10] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:58:24 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:58:24 [INFO]:  * Restarting with stat
+04.01.2024 | 16:58:24 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:58:24 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:58:24 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:58:26 [ERROR]: Error processing request: DataFrame columns must be unique for orient='records'.
+04.01.2024 | 16:58:26 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 87, in usagegraph
+    json_result = grouped_df.to_json(orient=JSON, date_format='iso')
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/generic.py", line 2629, in to_json
+    return json.to_json(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 195, in to_json
+    s = writer(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 251, in __init__
+    self._format_axes()
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 315, in _format_axes
+    raise ValueError(
+ValueError: DataFrame columns must be unique for orient='records'.
+
+04.01.2024 | 16:58:26 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:58:26] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:59:04 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:59:04 [INFO]:  * Restarting with stat
+04.01.2024 | 16:59:05 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:59:05 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:59:05 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:59:07 [ERROR]: Error processing request: name 'records' is not defined
+04.01.2024 | 16:59:07 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 87, in usagegraph
+    json_result = grouped_df.to_json(orient=records, date_format='iso')
+NameError: name 'records' is not defined
+
+04.01.2024 | 16:59:07 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:59:07] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:59:16 [ERROR]: Error processing request: Allowed JSON values are: {'split', 'records', 'index', 'columns', 'values', 'table'}
+04.01.2024 | 16:59:16 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 85, in usagegraph
+    raise ValueError("Allowed JSON values are: {'split', 'records', 'index', 'columns', 'values', 'table'}")
+ValueError: Allowed JSON values are: {'split', 'records', 'index', 'columns', 'values', 'table'}
+
+04.01.2024 | 16:59:16 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:59:16] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 16:59:23 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 16:59:23 [INFO]:  * Restarting with stat
+04.01.2024 | 16:59:24 [INFO]: Starting flask_restful app...
+04.01.2024 | 16:59:24 [WARNING]:  * Debugger is active!
+04.01.2024 | 16:59:24 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 16:59:24 [ERROR]: Error processing request: Allowed JSON values are: {'split', 'records', 'index', 'columns', 'values', 'table'}
+04.01.2024 | 16:59:24 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 85, in usagegraph
+    raise ValueError("Allowed JSON values are: {'split', 'records', 'index', 'columns', 'values', 'table'}")
+ValueError: Allowed JSON values are: {'split', 'records', 'index', 'columns', 'values', 'table'}
+
+04.01.2024 | 16:59:24 [INFO]: 127.0.0.1 - - [04/Jan/2024 16:59:24] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 17:00:05 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/API.py', reloading
+04.01.2024 | 17:00:05 [INFO]:  * Restarting with stat
+04.01.2024 | 17:00:06 [INFO]: Starting flask_restful app...
+04.01.2024 | 17:00:06 [WARNING]:  * Debugger is active!
+04.01.2024 | 17:00:06 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 17:00:07 [ERROR]: Error processing request: DataFrame columns must be unique for orient='records'.
+04.01.2024 | 17:00:07 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 87, in usagegraph
+    json_result = grouped_df.to_json(orient="records", date_format='iso')
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/generic.py", line 2629, in to_json
+    return json.to_json(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 195, in to_json
+    s = writer(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 251, in __init__
+    self._format_axes()
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 315, in _format_axes
+    raise ValueError(
+ValueError: DataFrame columns must be unique for orient='records'.
+
+04.01.2024 | 17:00:07 [INFO]: 127.0.0.1 - - [04/Jan/2024 17:00:07] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 17:03:36 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 17:03:36 [INFO]:  * Restarting with stat
+04.01.2024 | 17:03:37 [INFO]: Starting flask_restful app...
+04.01.2024 | 17:03:37 [WARNING]:  * Debugger is active!
+04.01.2024 | 17:03:37 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 17:03:41 [ERROR]: Error processing request: DataFrame columns must be unique for orient='records'.
+04.01.2024 | 17:03:41 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 87, in usagegraph
+    json_result = grouped_df.to_json(orient="records", date_format='iso', force_ascii=False)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/generic.py", line 2629, in to_json
+    return json.to_json(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 195, in to_json
+    s = writer(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 251, in __init__
+    self._format_axes()
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 315, in _format_axes
+    raise ValueError(
+ValueError: DataFrame columns must be unique for orient='records'.
+
+04.01.2024 | 17:03:41 [INFO]: 127.0.0.1 - - [04/Jan/2024 17:03:41] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 17:04:13 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 17:04:13 [INFO]:  * Restarting with stat
+04.01.2024 | 17:04:13 [INFO]: Starting flask_restful app...
+04.01.2024 | 17:04:13 [WARNING]:  * Debugger is active!
+04.01.2024 | 17:04:13 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 17:04:29 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 17:04:29 [INFO]:  * Restarting with stat
+04.01.2024 | 17:04:30 [INFO]: Starting flask_restful app...
+04.01.2024 | 17:04:30 [WARNING]:  * Debugger is active!
+04.01.2024 | 17:04:30 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 17:04:31 [ERROR]: Error processing request: DataFrame columns must be unique for orient='records'.
+04.01.2024 | 17:04:31 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 87, in usagegraph
+    json_result = grouped_df.to_json(orient="records", date_format='iso', lines=False)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/generic.py", line 2629, in to_json
+    return json.to_json(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 195, in to_json
+    s = writer(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 251, in __init__
+    self._format_axes()
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 315, in _format_axes
+    raise ValueError(
+ValueError: DataFrame columns must be unique for orient='records'.
+
+04.01.2024 | 17:04:31 [INFO]: 127.0.0.1 - - [04/Jan/2024 17:04:31] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 17:04:32 [ERROR]: Error processing request: DataFrame columns must be unique for orient='records'.
+04.01.2024 | 17:04:32 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 87, in usagegraph
+    json_result = grouped_df.to_json(orient="records", date_format='iso', lines=False)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/generic.py", line 2629, in to_json
+    return json.to_json(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 195, in to_json
+    s = writer(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 251, in __init__
+    self._format_axes()
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 315, in _format_axes
+    raise ValueError(
+ValueError: DataFrame columns must be unique for orient='records'.
+
+04.01.2024 | 17:04:32 [INFO]: 127.0.0.1 - - [04/Jan/2024 17:04:32] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 17:04:43 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 17:04:43 [INFO]:  * Restarting with stat
+04.01.2024 | 17:04:43 [INFO]: Starting flask_restful app...
+04.01.2024 | 17:04:43 [WARNING]:  * Debugger is active!
+04.01.2024 | 17:04:43 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 17:04:46 [ERROR]: Error processing request: DataFrame columns must be unique for orient='columns'.
+04.01.2024 | 17:04:46 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 87, in usagegraph
+    json_result = grouped_df.to_json(date_format='iso')
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/generic.py", line 2629, in to_json
+    return json.to_json(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 195, in to_json
+    s = writer(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 251, in __init__
+    self._format_axes()
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 315, in _format_axes
+    raise ValueError(
+ValueError: DataFrame columns must be unique for orient='columns'.
+
+04.01.2024 | 17:04:46 [INFO]: 127.0.0.1 - - [04/Jan/2024 17:04:46] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 17:04:49 [ERROR]: Error processing request: DataFrame columns must be unique for orient='columns'.
+04.01.2024 | 17:04:49 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 87, in usagegraph
+    json_result = grouped_df.to_json(date_format='iso')
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/generic.py", line 2629, in to_json
+    return json.to_json(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 195, in to_json
+    s = writer(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 251, in __init__
+    self._format_axes()
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 315, in _format_axes
+    raise ValueError(
+ValueError: DataFrame columns must be unique for orient='columns'.
+
+04.01.2024 | 17:04:49 [INFO]: 127.0.0.1 - - [04/Jan/2024 17:04:49] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 17:05:02 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 17:05:02 [INFO]:  * Restarting with stat
+04.01.2024 | 17:05:02 [INFO]: Starting flask_restful app...
+04.01.2024 | 17:05:02 [WARNING]:  * Debugger is active!
+04.01.2024 | 17:05:02 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 17:05:03 [INFO]: 127.0.0.1 - - [04/Jan/2024 17:05:03] "POST /graph HTTP/1.1" 200 -
+04.01.2024 | 17:05:30 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 17:05:30 [INFO]:  * Restarting with stat
+04.01.2024 | 17:05:30 [INFO]: Starting flask_restful app...
+04.01.2024 | 17:05:30 [WARNING]:  * Debugger is active!
+04.01.2024 | 17:05:30 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 17:05:32 [ERROR]: Error processing request: DataFrame columns must be unique for orient='index'.
+04.01.2024 | 17:05:32 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 87, in usagegraph
+    json_result = grouped_df.to_json(orient="index", date_format='iso')
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/generic.py", line 2629, in to_json
+    return json.to_json(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 195, in to_json
+    s = writer(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 251, in __init__
+    self._format_axes()
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 315, in _format_axes
+    raise ValueError(
+ValueError: DataFrame columns must be unique for orient='index'.
+
+04.01.2024 | 17:05:32 [INFO]: 127.0.0.1 - - [04/Jan/2024 17:05:32] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 17:05:40 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 17:05:41 [INFO]:  * Restarting with stat
+04.01.2024 | 17:05:41 [INFO]: Starting flask_restful app...
+04.01.2024 | 17:05:41 [WARNING]:  * Debugger is active!
+04.01.2024 | 17:05:41 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 17:05:43 [ERROR]: Error processing request: Invalid value 'column' for option 'orient'
+04.01.2024 | 17:05:43 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 87, in usagegraph
+    json_result = grouped_df.to_json(orient="column", date_format='iso')
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/generic.py", line 2629, in to_json
+    return json.to_json(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 195, in to_json
+    s = writer(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/io/json/_json.py", line 258, in write
+    return ujson_dumps(
+ValueError: Invalid value 'column' for option 'orient'
+
+04.01.2024 | 17:05:43 [INFO]: 127.0.0.1 - - [04/Jan/2024 17:05:43] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+04.01.2024 | 17:05:51 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+04.01.2024 | 17:05:51 [INFO]:  * Restarting with stat
+04.01.2024 | 17:05:52 [INFO]: Starting flask_restful app...
+04.01.2024 | 17:05:52 [WARNING]:  * Debugger is active!
+04.01.2024 | 17:05:52 [INFO]:  * Debugger PIN: 244-178-607
+04.01.2024 | 17:05:55 [INFO]: 127.0.0.1 - - [04/Jan/2024 17:05:55] "POST /graph HTTP/1.1" 200 -
+05.01.2024 | 08:35:56 [INFO]: 127.0.0.1 - - [05/Jan/2024 08:35:56] "POST /graph HTTP/1.1" 200 -
+05.01.2024 | 08:36:14 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+05.01.2024 | 08:36:14 [INFO]:  * Restarting with stat
+05.01.2024 | 08:36:14 [INFO]: Starting flask_restful app...
+05.01.2024 | 08:36:14 [WARNING]:  * Debugger is active!
+05.01.2024 | 08:36:14 [INFO]:  * Debugger PIN: 244-178-607
+05.01.2024 | 08:36:23 [INFO]: 127.0.0.1 - - [05/Jan/2024 08:36:23] "POST /graph HTTP/1.1" 200 -
+05.01.2024 | 08:37:55 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+05.01.2024 | 08:37:55 [INFO]:  * Restarting with stat
+05.01.2024 | 08:37:56 [INFO]: Starting flask_restful app...
+05.01.2024 | 08:37:56 [WARNING]:  * Debugger is active!
+05.01.2024 | 08:37:56 [INFO]:  * Debugger PIN: 244-178-607
+05.01.2024 | 08:37:57 [INFO]: 127.0.0.1 - - [05/Jan/2024 08:37:57] "POST /graph HTTP/1.1" 200 -
+05.01.2024 | 08:44:50 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+05.01.2024 | 08:44:51 [INFO]:  * Restarting with stat
+05.01.2024 | 08:44:51 [INFO]: Starting flask_restful app...
+05.01.2024 | 08:44:51 [WARNING]:  * Debugger is active!
+05.01.2024 | 08:44:51 [INFO]:  * Debugger PIN: 244-178-607
+05.01.2024 | 08:44:54 [ERROR]: Error processing request: "Column(s) ['user_id_count', 'user_id_nunique'] do not exist"
+05.01.2024 | 08:44:54 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 54, in usagegraph
+    grouped_df = self.df.groupby('day').agg({
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/groupby/generic.py", line 1445, in aggregate
+    result = op.agg()
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 175, in agg
+    return self.agg_dict_like()
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 406, in agg_dict_like
+    return self.agg_or_apply_dict_like(op_name="agg")
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 1390, in agg_or_apply_dict_like
+    result_index, result_data = self.compute_dict_like(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 445, in compute_dict_like
+    func = self.normalize_dictlike_arg(op_name, selected_obj, func)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 639, in normalize_dictlike_arg
+    raise KeyError(f"Column(s) {list(cols)} do not exist")
+KeyError: "Column(s) ['user_id_count', 'user_id_nunique'] do not exist"
+
+05.01.2024 | 08:44:54 [INFO]: 127.0.0.1 - - [05/Jan/2024 08:44:54] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+05.01.2024 | 08:45:13 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+05.01.2024 | 08:45:14 [INFO]:  * Restarting with stat
+05.01.2024 | 08:45:14 [INFO]: Starting flask_restful app...
+05.01.2024 | 08:45:14 [WARNING]:  * Debugger is active!
+05.01.2024 | 08:45:14 [INFO]:  * Debugger PIN: 244-178-607
+05.01.2024 | 08:45:31 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+05.01.2024 | 08:45:31 [INFO]:  * Restarting with stat
+05.01.2024 | 08:45:32 [INFO]: Starting flask_restful app...
+05.01.2024 | 08:45:32 [WARNING]:  * Debugger is active!
+05.01.2024 | 08:45:32 [INFO]:  * Debugger PIN: 244-178-607
+05.01.2024 | 08:46:20 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+05.01.2024 | 08:46:20 [INFO]:  * Restarting with stat
+05.01.2024 | 08:46:20 [INFO]: Starting flask_restful app...
+05.01.2024 | 08:46:20 [WARNING]:  * Debugger is active!
+05.01.2024 | 08:46:20 [INFO]:  * Debugger PIN: 244-178-607
+05.01.2024 | 08:46:21 [ERROR]: Error processing request: "Column(s) ['user_id_count', 'user_id_nunique'] do not exist"
+05.01.2024 | 08:46:21 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 53, in usagegraph
+    grouped_df = self.df.groupby('day').agg({
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/groupby/generic.py", line 1445, in aggregate
+    result = op.agg()
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 175, in agg
+    return self.agg_dict_like()
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 406, in agg_dict_like
+    return self.agg_or_apply_dict_like(op_name="agg")
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 1390, in agg_or_apply_dict_like
+    result_index, result_data = self.compute_dict_like(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 445, in compute_dict_like
+    func = self.normalize_dictlike_arg(op_name, selected_obj, func)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 639, in normalize_dictlike_arg
+    raise KeyError(f"Column(s) {list(cols)} do not exist")
+KeyError: "Column(s) ['user_id_count', 'user_id_nunique'] do not exist"
+
+05.01.2024 | 08:46:21 [INFO]: 127.0.0.1 - - [05/Jan/2024 08:46:21] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+05.01.2024 | 08:46:23 [ERROR]: Error processing request: "Column(s) ['user_id_count', 'user_id_nunique'] do not exist"
+05.01.2024 | 08:46:23 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 53, in usagegraph
+    grouped_df = self.df.groupby('day').agg({
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/groupby/generic.py", line 1445, in aggregate
+    result = op.agg()
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 175, in agg
+    return self.agg_dict_like()
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 406, in agg_dict_like
+    return self.agg_or_apply_dict_like(op_name="agg")
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 1390, in agg_or_apply_dict_like
+    result_index, result_data = self.compute_dict_like(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 445, in compute_dict_like
+    func = self.normalize_dictlike_arg(op_name, selected_obj, func)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 639, in normalize_dictlike_arg
+    raise KeyError(f"Column(s) {list(cols)} do not exist")
+KeyError: "Column(s) ['user_id_count', 'user_id_nunique'] do not exist"
+
+05.01.2024 | 08:46:23 [INFO]: 127.0.0.1 - - [05/Jan/2024 08:46:23] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+05.01.2024 | 08:46:58 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+05.01.2024 | 08:46:58 [INFO]:  * Restarting with stat
+05.01.2024 | 08:46:58 [INFO]: Starting flask_restful app...
+05.01.2024 | 08:46:58 [WARNING]:  * Debugger is active!
+05.01.2024 | 08:46:58 [INFO]:  * Debugger PIN: 244-178-607
+05.01.2024 | 08:47:00 [ERROR]: Error processing request: "Column(s) ['user_id_count', 'user_id_nunique'] do not exist"
+05.01.2024 | 08:47:00 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 53, in usagegraph
+    grouped_df = self.df.groupby('day').agg({
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/groupby/generic.py", line 1445, in aggregate
+    result = op.agg()
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 175, in agg
+    return self.agg_dict_like()
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 406, in agg_dict_like
+    return self.agg_or_apply_dict_like(op_name="agg")
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 1390, in agg_or_apply_dict_like
+    result_index, result_data = self.compute_dict_like(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 445, in compute_dict_like
+    func = self.normalize_dictlike_arg(op_name, selected_obj, func)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 639, in normalize_dictlike_arg
+    raise KeyError(f"Column(s) {list(cols)} do not exist")
+KeyError: "Column(s) ['user_id_count', 'user_id_nunique'] do not exist"
+
+05.01.2024 | 08:47:00 [INFO]: 127.0.0.1 - - [05/Jan/2024 08:47:00] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+05.01.2024 | 08:47:02 [ERROR]: Error processing request: "Column(s) ['user_id_count', 'user_id_nunique'] do not exist"
+05.01.2024 | 08:47:02 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 48, in post
+    json_result = usage_graph.usagegraph(
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 53, in usagegraph
+    grouped_df = self.df.groupby('day').agg({
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/groupby/generic.py", line 1445, in aggregate
+    result = op.agg()
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 175, in agg
+    return self.agg_dict_like()
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 406, in agg_dict_like
+    return self.agg_or_apply_dict_like(op_name="agg")
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 1390, in agg_or_apply_dict_like
+    result_index, result_data = self.compute_dict_like(
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 445, in compute_dict_like
+    func = self.normalize_dictlike_arg(op_name, selected_obj, func)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/apply.py", line 639, in normalize_dictlike_arg
+    raise KeyError(f"Column(s) {list(cols)} do not exist")
+KeyError: "Column(s) ['user_id_count', 'user_id_nunique'] do not exist"
+
+05.01.2024 | 08:47:02 [INFO]: 127.0.0.1 - - [05/Jan/2024 08:47:02] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+05.01.2024 | 08:47:58 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+05.01.2024 | 08:47:58 [INFO]:  * Restarting with stat
+05.01.2024 | 08:47:58 [INFO]: Starting flask_restful app...
+05.01.2024 | 08:47:58 [WARNING]:  * Debugger is active!
+05.01.2024 | 08:47:58 [INFO]:  * Debugger PIN: 244-178-607
+05.01.2024 | 08:47:59 [INFO]: 127.0.0.1 - - [05/Jan/2024 08:47:59] "POST /graph HTTP/1.1" 200 -
+05.01.2024 | 08:56:31 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/UsageGraph.py', reloading
+05.01.2024 | 08:56:31 [INFO]:  * Restarting with stat
+05.01.2024 | 08:56:31 [INFO]: Starting flask_restful app...
+05.01.2024 | 08:56:31 [WARNING]:  * Debugger is active!
+05.01.2024 | 08:56:31 [INFO]:  * Debugger PIN: 244-178-607
