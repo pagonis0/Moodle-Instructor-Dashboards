@@ -1,18 +1,9 @@
-import os
-import sys
 import traceback
 import logging
-from functools import wraps
 import json
-
-import flask.json
-from copy import deepcopy
 from flask import Flask
-from flask import request
-from flask.json import jsonify
 from flask_restful import Api, Resource, reqparse
 from flask_httpauth import HTTPTokenAuth
-
 from UsageGraph import UsageGraph
 
 app = Flask(__name__)
@@ -22,6 +13,12 @@ auth = HTTPTokenAuth(scheme='Bearer')
 
 @auth.verify_token
 def _authenticate(token):
+    """
+    Token authentication method.
+    If token provided not matched returns False
+    :param token:
+    :return: Boolean value if token is right or wrong
+    """
     if token == 'test_token':
         return True
     else:
@@ -30,18 +27,44 @@ def _authenticate(token):
 
 @auth.error_handler
 def auth_error():
+    """
+    Error handler methon.
+    If error raised return access denied
+    :return: 403 Error: Access Denied
+    """
     return "Access Denied", 403
 
 class PostGraph(Resource):
+    """
+    The usage of this class provide the JSON onject to build a
+    graph in moodle via an API call. If the class's method is called via
+    an API some parameters must be give.
+    Bearer Token: To authenticate the user
+    Body: A JSON obejct with requested parameters.
+    An example object could look like:
+    {
+      "courseid": 32,
+      "date_range": ["21.12.2023", "02.12.2024"],
+      "LN": ["*"]
+    }
+    The service was build by Panos Pagonis. For questions email
+    panos.pagonis@thi.de.
+    The main methods are:
+    post()
+    """
     @auth.login_required
     def post(self):
+        """
+        Method that posts the requested from user parameters in
+        UsageGraph method in order to produce the graph/JSON object.
+        :return: JSON objects which includes the graph
+        """
         try:
             parser = reqparse.RequestParser()
             parser.add_argument("courseid", location="json", type=int, required=True)
             #parser.add_argument("chapter", location="json")
             parser.add_argument("date_range", location="json", type=list)
             parser.add_argument("LN", location="json", type=list)
-            #parser.add_argument("JSON", location="json", type=str)
             params = parser.parse_args()
 
             usage_graph = UsageGraph()
@@ -49,14 +72,13 @@ class PostGraph(Resource):
                 courseid=params['courseid'],
                 chapter=params.get('chapter'),
                 date_range=params.get('date_range'),
-                LN=params.get('LN'),
-                #JSON=params.get('JSON')
+                LN=params.get('LN')
             )
 
             return json.loads(json_result)
         except Exception as error:
             logging.error(f"Error processing request: {error}")
-            logging.error(traceback.format_exc())  # Add this line for full traceback
+            logging.error(traceback.format_exc())
             return {"error": f"Internal Server Error: {error}"}, 500
 
 api.add_resource(PostGraph, "/graph")

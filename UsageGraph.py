@@ -50,6 +50,7 @@ class UsageGraph:
         enroled in course
         """
 
+        # Check if courseid is given or if is in dataset included
         if courseid is None:
             raise ValueError("Please provide a valid courseid.")
 
@@ -74,6 +75,7 @@ class UsageGraph:
                 raise ValueError(f"Error parsing date range: {e}")
 
         self.df['objectid'] = pd.to_numeric(self.df['objectid'], errors='coerce')
+
         # Filter by LN (if provided)
         if LN is not None and LN != ['*']:
             if not isinstance(LN, list) or not all(isinstance(item, int) for item in LN):
@@ -88,6 +90,7 @@ class UsageGraph:
                            'objectid', 'user_id', 'day']
         self.df = self.df[columns_to_keep]
 
+        # Create JSON object view with Day in top level and LN in second layer
         grouped_df = self.df.groupby(['day', 'objectid']).agg(
             courseid=('courseid', 'first'),
             coursename=('coursename', 'first'),
@@ -98,21 +101,15 @@ class UsageGraph:
             user_id_nunique=('user_id', 'nunique')
         ).reset_index()
 
-        # Convert 'day' to the desired format
         grouped_df['day'] = pd.to_datetime(grouped_df['day'], format='%d-%m-%Y').dt.strftime('%d-%m-%Y')
 
-        # Convert lists to strings for the final result
         grouped_df['nuggetName'] = grouped_df['nuggetName'].apply(
             lambda x: [str(n) for n in x]) if 'nuggetName' in grouped_df.columns else None
-
-        # Rename columns for consistency
         grouped_df = grouped_df.rename(
             columns={'user_id_count': 'count_user_id', 'user_id_nunique': 'count_unique_user_id'})
 
-        # Create a dictionary to store the final result
+        # Fill dictionary with values
         result_dict = {}
-
-        # Iterate through each row in the grouped DataFrame and update the dictionary
         for _, row in grouped_df.iterrows():
             day = row['day']
             object_id = int(row['objectid'])
@@ -131,6 +128,7 @@ class UsageGraph:
 
             result_dict[day][object_id] = data
 
+        # Dict to JSON
         json_result = json.dumps(result_dict, indent=2)
 
         return json_result
