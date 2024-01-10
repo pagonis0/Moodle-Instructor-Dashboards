@@ -1,17 +1,55 @@
 import pandas as pd
-from datetime import date, time, datetime
-from tqdm import tqdm
+from datetime import datetime
 import json
 from DataHandling import EventHandling
 
 
 class UsageGraph:
+    """
+    The class methods performs data processing in way to create a ready to use object
+    for the Moodle system with all the needed information to generate a graph of the
+    usage of Learning Nuggets of each course.
+    The Methods of the class give the opportunity to filter the data using Learning
+    Nugget ID, course, a date range, chapters of the course and even the lecture dates.
+    The provided final form is a JSON object with the requested filtered data.
+    The service was build by Panos Pagonis. For questions email
+    panos.pagonis@thi.de.
+    The main methods are:
+    usagegraph()
+    """
     def __init__(self):
+        """
+        Initializing method, calls the preprocessed data from EVD.
+        :return: None
+        """
         self.df = EventHandling().preproccess()
         self.grouped_df = None
 
     def usagegraph(self, courseid, chapter=None, date_range=None, LN=None):
-        # Validate and filter by courseid
+        """
+
+        :param courseid: Given course id in order to filter out the data.
+        Only 1 courseid must be provided.
+        :param chapter: The chapther or capitals of the specific course to
+        be used in the analysis. Multiple could be used in a form of list
+        of intergers e.g. [1, 2, 3, 4,] in case all are given leave empty
+        or better give ["*"] a list of a single asterisk string.
+        :param date_range: The date range to be calculated for the graph.
+        Default value to be sent is the minimum and maximum date found in
+        the data. Please enter input in form of list of two objects. A
+        format could be ["DD.MM.YYYY", "DD.MM.YYYY"].
+        :param LN: The learning nuggets to be included in the analysis.
+        Multiple could be used in a form of list of intergers e.g.
+        [1, 2, 3, 4,] in case all are given leave empty or better give
+        ["*"] a list of a single asterisk string.
+
+        :return: JSON object with a filtered dataframe based on the
+        requested parameters. It includes an object per DAY with
+        unique users per item or all the usages of the item as
+        well as lecture dates, chapter, Learning Nuggets and members
+        enroled in course
+        """
+
         if courseid is None:
             raise ValueError("Please provide a valid courseid.")
 
@@ -50,13 +88,12 @@ class UsageGraph:
                            'objectid', 'user_id', 'day']
         self.df = self.df[columns_to_keep]
 
-        grouped_df = self.df.groupby('day').agg(
+        grouped_df = self.df.groupby(['day', 'objectid']).agg(
             courseid=('courseid', 'first'),
             coursename=('coursename', 'first'),
             lectureDate=('lectureDate', lambda x: list(pd.to_datetime(x).dt.strftime('%Y-%m-%d'))),
             membersInCourse=('membersInCourse', 'first'),
             nuggetName=('nuggetName', lambda x: list(x.unique())),
-            objectid=('objectid', lambda x: list(x.unique())),
             user_id_count=('user_id', 'count'),
             user_id_nunique=('user_id', 'nunique')
         ).reset_index()
@@ -67,13 +104,33 @@ class UsageGraph:
         # Convert lists to strings for the final result
         grouped_df['nuggetName'] = grouped_df['nuggetName'].apply(
             lambda x: [str(n) for n in x]) if 'nuggetName' in grouped_df.columns else None
-        grouped_df['objectid'] = grouped_df['objectid'].apply(
-            lambda x: [float(o) for o in x]) if 'objectid' in grouped_df.columns else None
 
         # Rename columns for consistency
         grouped_df = grouped_df.rename(
             columns={'user_id_count': 'count_user_id', 'user_id_nunique': 'count_unique_user_id'})
 
-        json_result = grouped_df.to_json(orient="table", date_format='iso')
+        # Create a dictionary to store the final result
+        result_dict = {}
+
+        # Iterate through each row in the grouped DataFrame and update the dictionary
+        for _, row in grouped_df.iterrows():
+            day = row['day']
+            object_id = int(row['objectid'])
+            data = {
+                "courseid": row['courseid'],
+                "coursename": row['coursename'],
+                "lectureDate": row['lectureDate'],
+                "membersInCourse": row['membersInCourse'],
+                "nuggetName": row['nuggetName'],
+                "count_user_id": row['count_user_id'],
+                "count_unique_user_id": row['count_unique_user_id']
+            }
+
+            if day not in result_dict:
+                result_dict[day] = {}
+
+            result_dict[day][object_id] = data
+
+        json_result = json.dumps(result_dict, indent=2)
 
         return json_result

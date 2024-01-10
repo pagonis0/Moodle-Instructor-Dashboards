@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from DataHandling import *
 from UsageGraph import *
+import DataHandling as dh
 
 #evnt_handling = EventHandling()
 #evnt = evnt_handling.preproccess()
@@ -27,6 +28,6 @@ from UsageGraph import *
 #plt.legend(title='objectid', bbox_to_anchor=(1.05, 1), loc='upper left')
 #plt.show()
 
-usage_graph = UsageGraph()
-filtered_df = usage_graph.usagegraph(courseid=32, date_range=["10.11.2023", "15.11.2023"], LN=[828, 830])
-print(filtered_df)
+#usage_graph = UsageGraph()
+#filtered_df = usage_graph.usagegraph(courseid=32, date_range=["10.11.2023", "15.11.2023"], LN=[828, 830])
+print(help(dh.EventHandling))
