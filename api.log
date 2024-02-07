@@ -2937,3 +2937,168 @@ TypeError: Object of type Series is not JSON serializable
 09.01.2024 | 09:47:52 [INFO]: 127.0.0.1 - - [09/Jan/2024 09:47:52] "POST /graph HTTP/1.1" 200 -
 09.01.2024 | 16:48:55 [INFO]: Ending flask_restful app
 09.01.2024 | 16:48:55 [INFO]: Ending flask_restful app
+17.01.2024 | 12:12:21 [INFO]: Starting flask_restful app...
+17.01.2024 | 12:12:21 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+17.01.2024 | 12:12:21 [INFO]: [33mPress CTRL+C to quit[0m
+17.01.2024 | 12:12:21 [INFO]:  * Restarting with stat
+17.01.2024 | 12:12:21 [INFO]: Starting flask_restful app...
+17.01.2024 | 12:12:21 [WARNING]:  * Debugger is active!
+17.01.2024 | 12:12:21 [INFO]:  * Debugger PIN: 244-178-607
+17.01.2024 | 12:12:31 [INFO]: 127.0.0.1 - - [17/Jan/2024 12:12:31] "POST /graph HTTP/1.1" 200 -
+17.01.2024 | 14:07:08 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/tester.py', reloading
+17.01.2024 | 14:07:08 [INFO]:  * Restarting with stat
+17.01.2024 | 14:07:10 [INFO]: Starting flask_restful app...
+17.01.2024 | 14:07:10 [WARNING]:  * Debugger is active!
+17.01.2024 | 14:07:10 [INFO]:  * Debugger PIN: 244-178-607
+17.01.2024 | 14:11:56 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/tester.py', reloading
+17.01.2024 | 14:11:56 [INFO]:  * Restarting with stat
+17.01.2024 | 14:11:56 [INFO]: Starting flask_restful app...
+17.01.2024 | 14:11:56 [WARNING]:  * Debugger is active!
+17.01.2024 | 14:11:56 [INFO]:  * Debugger PIN: 244-178-607
+17.01.2024 | 15:36:54 [INFO]: Ending flask_restful app
+17.01.2024 | 15:36:54 [INFO]: Ending flask_restful app
+18.01.2024 | 11:55:31 [INFO]: Starting flask_restful app...
+18.01.2024 | 11:55:31 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+18.01.2024 | 11:55:31 [INFO]: [33mPress CTRL+C to quit[0m
+18.01.2024 | 11:55:31 [INFO]:  * Restarting with stat
+18.01.2024 | 11:55:31 [INFO]: Starting flask_restful app...
+18.01.2024 | 11:55:31 [WARNING]:  * Debugger is active!
+18.01.2024 | 11:55:31 [INFO]:  * Debugger PIN: 132-369-629
+18.01.2024 | 11:55:37 [INFO]: 127.0.0.1 - - [18/Jan/2024 11:55:37] "POST /graph HTTP/1.1" 200 -
+18.01.2024 | 11:56:25 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+18.01.2024 | 11:56:25 [INFO]:  * Restarting with stat
+18.01.2024 | 11:56:26 [INFO]: Starting flask_restful app...
+18.01.2024 | 11:56:26 [WARNING]:  * Debugger is active!
+18.01.2024 | 11:56:26 [INFO]:  * Debugger PIN: 132-369-629
+18.01.2024 | 11:56:40 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+18.01.2024 | 11:56:40 [INFO]:  * Restarting with stat
+18.01.2024 | 11:56:40 [INFO]: Starting flask_restful app...
+18.01.2024 | 11:56:40 [WARNING]:  * Debugger is active!
+18.01.2024 | 11:56:40 [INFO]:  * Debugger PIN: 132-369-629
+18.01.2024 | 11:57:10 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+18.01.2024 | 11:57:10 [INFO]:  * Restarting with stat
+18.01.2024 | 11:57:10 [INFO]: Starting flask_restful app...
+18.01.2024 | 11:57:10 [WARNING]:  * Debugger is active!
+18.01.2024 | 11:57:10 [INFO]:  * Debugger PIN: 132-369-629
+18.01.2024 | 11:58:30 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+18.01.2024 | 11:58:31 [INFO]:  * Restarting with stat
+18.01.2024 | 11:58:31 [INFO]: Starting flask_restful app...
+18.01.2024 | 11:58:31 [WARNING]:  * Debugger is active!
+18.01.2024 | 11:58:31 [INFO]:  * Debugger PIN: 132-369-629
+18.01.2024 | 11:58:58 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+18.01.2024 | 11:58:58 [INFO]:  * Restarting with stat
+18.01.2024 | 11:58:59 [INFO]: Starting flask_restful app...
+18.01.2024 | 11:58:59 [WARNING]:  * Debugger is active!
+18.01.2024 | 11:58:59 [INFO]:  * Debugger PIN: 132-369-629
+18.01.2024 | 11:59:37 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+18.01.2024 | 11:59:37 [INFO]:  * Restarting with stat
+18.01.2024 | 11:59:38 [INFO]: Starting flask_restful app...
+18.01.2024 | 11:59:38 [WARNING]:  * Debugger is active!
+18.01.2024 | 11:59:38 [INFO]:  * Debugger PIN: 132-369-629
+18.01.2024 | 12:00:00 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+18.01.2024 | 12:00:00 [INFO]:  * Restarting with stat
+18.01.2024 | 12:00:01 [INFO]: Starting flask_restful app...
+18.01.2024 | 12:00:01 [WARNING]:  * Debugger is active!
+18.01.2024 | 12:00:01 [INFO]:  * Debugger PIN: 132-369-629
+18.01.2024 | 12:00:35 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+18.01.2024 | 12:00:35 [INFO]:  * Restarting with stat
+18.01.2024 | 12:00:36 [INFO]: Starting flask_restful app...
+18.01.2024 | 12:00:36 [WARNING]:  * Debugger is active!
+18.01.2024 | 12:00:36 [INFO]:  * Debugger PIN: 132-369-629
+18.01.2024 | 12:00:53 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+18.01.2024 | 12:00:53 [INFO]:  * Restarting with stat
+18.01.2024 | 12:00:53 [INFO]: Starting flask_restful app...
+18.01.2024 | 12:00:53 [WARNING]:  * Debugger is active!
+18.01.2024 | 12:00:53 [INFO]:  * Debugger PIN: 132-369-629
+18.01.2024 | 12:01:13 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+18.01.2024 | 12:01:13 [INFO]:  * Restarting with stat
+18.01.2024 | 12:01:13 [INFO]: Starting flask_restful app...
+18.01.2024 | 12:01:13 [WARNING]:  * Debugger is active!
+18.01.2024 | 12:01:13 [INFO]:  * Debugger PIN: 132-369-629
+18.01.2024 | 12:02:16 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+18.01.2024 | 12:02:16 [INFO]:  * Restarting with stat
+18.01.2024 | 12:02:17 [INFO]: Starting flask_restful app...
+18.01.2024 | 12:02:17 [WARNING]:  * Debugger is active!
+18.01.2024 | 12:02:17 [INFO]:  * Debugger PIN: 132-369-629
+18.01.2024 | 13:23:17 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+18.01.2024 | 13:23:17 [INFO]:  * Restarting with stat
+18.01.2024 | 13:23:18 [INFO]: Starting flask_restful app...
+18.01.2024 | 13:23:18 [WARNING]:  * Debugger is active!
+18.01.2024 | 13:23:18 [INFO]:  * Debugger PIN: 132-369-629
+18.01.2024 | 13:23:31 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+18.01.2024 | 13:23:31 [INFO]:  * Restarting with stat
+18.01.2024 | 13:23:32 [INFO]: Starting flask_restful app...
+18.01.2024 | 13:23:32 [WARNING]:  * Debugger is active!
+18.01.2024 | 13:23:32 [INFO]:  * Debugger PIN: 132-369-629
+18.01.2024 | 13:26:37 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+18.01.2024 | 13:26:37 [INFO]:  * Restarting with stat
+18.01.2024 | 13:26:38 [INFO]: Starting flask_restful app...
+18.01.2024 | 13:26:38 [WARNING]:  * Debugger is active!
+18.01.2024 | 13:26:38 [INFO]:  * Debugger PIN: 132-369-629
+18.01.2024 | 13:30:56 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+18.01.2024 | 13:30:56 [INFO]:  * Restarting with stat
+18.01.2024 | 13:30:56 [INFO]: Starting flask_restful app...
+18.01.2024 | 13:30:56 [WARNING]:  * Debugger is active!
+18.01.2024 | 13:30:56 [INFO]:  * Debugger PIN: 132-369-629
+18.01.2024 | 13:31:13 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+18.01.2024 | 13:31:13 [INFO]:  * Restarting with stat
+18.01.2024 | 13:31:14 [INFO]: Starting flask_restful app...
+18.01.2024 | 13:31:14 [WARNING]:  * Debugger is active!
+18.01.2024 | 13:31:14 [INFO]:  * Debugger PIN: 132-369-629
+18.01.2024 | 13:31:16 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+18.01.2024 | 13:31:16 [INFO]:  * Restarting with stat
+18.01.2024 | 13:35:52 [INFO]: Starting flask_restful app...
+18.01.2024 | 13:35:52 [INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5005
+18.01.2024 | 13:35:52 [INFO]: [33mPress CTRL+C to quit[0m
+18.01.2024 | 13:35:52 [INFO]:  * Restarting with stat
+18.01.2024 | 13:35:53 [INFO]: Starting flask_restful app...
+18.01.2024 | 13:35:53 [WARNING]:  * Debugger is active!
+18.01.2024 | 13:35:53 [INFO]:  * Debugger PIN: 132-369-629
+18.01.2024 | 13:36:11 [ERROR]: Error processing request: 'data'
+18.01.2024 | 13:36:11 [ERROR]: Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 181, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'data'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/pagonis/Documents/InstrDash/API.py", line 70, in post
+    usage_graph = UsageGraph()
+  File "/Users/pagonis/Documents/InstrDash/UsageGraph.py", line 25, in __init__
+    self.df = EventHandling().preproccess()
+  File "/Users/pagonis/Documents/InstrDash/DataHandling.py", line 94, in preproccess
+    self.df = json_normalize(fetch_result['data'])
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/pagonis/Documents/InstrDash/venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'data'
+
+18.01.2024 | 13:36:11 [INFO]: 127.0.0.1 - - [18/Jan/2024 13:36:11] "[35m[1mPOST /graph HTTP/1.1[0m" 500 -
+18.01.2024 | 13:37:51 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+18.01.2024 | 13:37:51 [INFO]:  * Restarting with stat
+18.01.2024 | 13:37:51 [INFO]: Starting flask_restful app...
+18.01.2024 | 13:37:51 [WARNING]:  * Debugger is active!
+18.01.2024 | 13:37:51 [INFO]:  * Debugger PIN: 132-369-629
+18.01.2024 | 13:37:58 [INFO]: 127.0.0.1 - - [18/Jan/2024 13:37:58] "POST /graph HTTP/1.1" 200 -
+18.01.2024 | 13:38:13 [INFO]: 127.0.0.1 - - [18/Jan/2024 13:38:13] "POST /graph HTTP/1.1" 200 -
+18.01.2024 | 13:47:12 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/instructor-dashboard-analysis/DataHandling.py', reloading
+18.01.2024 | 13:47:12 [INFO]:  * Restarting with stat
+18.01.2024 | 13:47:13 [INFO]: Starting flask_restful app...
+18.01.2024 | 13:47:13 [WARNING]:  * Debugger is active!
+18.01.2024 | 13:47:13 [INFO]:  * Debugger PIN: 132-369-629
+18.01.2024 | 13:51:21 [INFO]: 127.0.0.1 - - [18/Jan/2024 13:51:21] "POST /graph HTTP/1.1" 200 -
+18.01.2024 | 13:51:47 [INFO]: 127.0.0.1 - - [18/Jan/2024 13:51:47] "POST /graph HTTP/1.1" 200 -
+18.01.2024 | 14:34:44 [INFO]:  * Detected change in '/Users/pagonis/Documents/InstrDash/DataHandling.py', reloading
+18.01.2024 | 14:34:44 [INFO]:  * Restarting with stat
+18.01.2024 | 14:34:44 [INFO]: Starting flask_restful app...
+18.01.2024 | 14:34:44 [WARNING]:  * Debugger is active!
+18.01.2024 | 14:34:44 [INFO]:  * Debugger PIN: 132-369-629

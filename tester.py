@@ -30,4 +30,8 @@ import DataHandling as dh
 
 #usage_graph = UsageGraph()
 #filtered_df = usage_graph.usagegraph(courseid=32, date_range=["10.11.2023", "15.11.2023"], LN=[828, 830])
-print(help(dh.EventHandling))
+#print(help(dh.EventHandling))
+
+logs = dh.EventHandling()
+tester = logs.fetch_fallback_data(courseid="32")
+print(tester.head())

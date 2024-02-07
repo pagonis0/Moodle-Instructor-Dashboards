@@ -5,6 +5,7 @@ from flask import Flask
 from flask_restful import Api, Resource, reqparse
 from flask_httpauth import HTTPTokenAuth
 from UsageGraph import UsageGraph
+from DataHandling import EventHandling
 
 app = Flask(__name__)
 api = Api(app)
@@ -66,6 +67,7 @@ class PostGraph(Resource):
             parser.add_argument("date_range", location="json", type=list)
             parser.add_argument("LN", location="json", type=list)
             params = parser.parse_args()
+
 
             usage_graph = UsageGraph()
             json_result = usage_graph.usagegraph(
