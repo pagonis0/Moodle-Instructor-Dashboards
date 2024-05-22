@@ -1,4 +1,4 @@
-# THISuccess^AI Instructor Dashboard Graphical Analyis
+# Moodle Instructor Dashboard Graphical Analyis
 
 
 
