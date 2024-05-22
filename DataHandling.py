@@ -29,7 +29,7 @@ class EventHandling:
     _filter_data()
     preprocess()
     """
-    def __init__(self, cache_file='event_data_cache.json'):
+    def __init__(self, cache_file='event_data_cache.json', url):
         """
         Initializer method.
         Contains the user IDs that need to be removed.
@@ -40,6 +40,7 @@ class EventHandling:
         self.usr_rmv = [-20, -10, -1, 2, 3, 5, 6, 7, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
                         99, 101, 103, 117, 119, 120, 122, 123, 131, 145, 146, 149, 156, 161, 248]
         self.cache_file = cache_file
+        self.url = url
 
 
     def __fetch(self):
@@ -63,8 +64,7 @@ class EventHandling:
 
         print('Fetching new json data... (Creating local cache)')
         try:
-            json_data = requests.get('https://success-ai.rz.fh-ingolstadt.de/eventService/get_data_from_db',
-                                     verify=False).json()
+            json_data = requests.get(self.url, verify=False).json()
         except requests.exceptions.RequestException as e:
             print(f"Could not access Event Collection Data (EVC): {e}")
 
@@ -126,7 +126,7 @@ class EventHandling:
         return self.df
 
 
-    def fetch_fallback_data(self, courseid, action: str = "viewed"):
+    def fetch_fallback_data(self, courseid, action: str = "viewed", fallback_url: str):
         """
         If the EVD is not reachable is calls the data from
         Moodle log files. The method also does the preprocessing
@@ -134,7 +134,7 @@ class EventHandling:
         :return: pandas.DataFrame object with the whole dataset
         """
 
-        url = "https://success.thi.de/webservice/rest/server.php"
+        url = fallback_url
         params = {
             'wstoken': "38cb1aa68d55c4f2d8dcb691a306b2f6",
             'wsfunction': "local_wstemplate_get_site_logs",
